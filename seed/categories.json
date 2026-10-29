@@ -80,6 +80,16 @@
   }
  },
  {
+  "key": "ritual",
+  "kind": "case",
+  "label": "Occult & ritual sites",
+  "colour": "#7a1f2e",
+  "sort": 8,
+  "metadata": {
+   "colour_dark": "#e2727f"
+  }
+ },
+ {
   "key": "person",
   "kind": "entity",
   "label": "People",
