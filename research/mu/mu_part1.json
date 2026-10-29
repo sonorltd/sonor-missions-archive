@@ -1,0 +1,504 @@
+{
+ "links": [
+  {
+   "case_id": "letham-phantom-battle-1950",
+   "episode_id": "2.11-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "Show-notes links: Adventures in time #1: a Scottish spinster at the Battle of Nechtansmere, 685 AD — http://blogs.forteana.org/node/87",
+   "evidence": "link-title"
+  },
+  {
+   "case_id": "kersey-1957",
+   "episode_id": "16-16-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "What we do have 100% confirmed is enthralling tales of Italian time machines invented by Venetian monks, the forefathers of EVP, and a collection of time slip experiences to the medieval age.\nShow-notes links: When Three British Boys Traveled to Medieval England — http://www.smithsonianmag.com/history/when-three-british-boys-traveled-to-medieval-england-or-did-they-35698485/?no-ist",
+   "evidence": "link-title"
+  },
+  {
+   "case_id": "rollright-stones-witches-coven-lore-and",
+   "episode_id": "15-11-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "We then investigate archaeoacoustics and an alleged pre-historic 'consciousness internet' before eventually winding up with tales of portal traversing Men in Black and the mysterious Force X.\nShow-notes links: The Dragon Project — http://www.pauldevereux.co.uk/body_dragonproject.html · The Sacred Network: Megaliths, Cathedrals, Ley Lines, and the Power of Shared Consciousness — http://www.amazon.com/gp/product/1594773815/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1594773815&linkCode=as2&tag=mysteruniver-20&linkId=SOTLXOQBGIUS5YFJ",
+   "evidence": "web"
+  },
+  {
+   "case_id": "howden-moor-phantom-aircraft-1997",
+   "episode_id": "14-07-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "We then investigate recent reports of 'Ghost fliers' in the UK and unravel decades of eerie phenomenon reported on the moors, all before discovering the underground community of xenomeliacs in our Plus+ extension.\nShow-notes links: Ghost Fliers — http://drdavidclarke.co.uk/urban-legendary/ghost-fliers/",
+   "evidence": "web"
+  },
+  {
+   "case_id": "ladybower-phantom-lancaster-1982",
+   "episode_id": "14-07-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "We then investigate recent reports of 'Ghost fliers' in the UK and unravel decades of eerie phenomenon reported on the moors, all before discovering the underground community of xenomeliacs in our Plus+ extension.\nShow-notes links: Ghost Fliers — http://drdavidclarke.co.uk/urban-legendary/ghost-fliers/",
+   "evidence": "web"
+  }
+ ],
+ "new_cases": [
+  {
+   "title": "Derbyshire 'ghost plane' sightings",
+   "cat": "craft",
+   "date": "2015/08",
+   "place": "Ripley and Heage, Amber Valley, Derbyshire (also reported near Hope, Peak District)",
+   "lat": 53.0515,
+   "lon": -1.4026,
+   "desc": "In 2015 Derbyshire newspapers reported several witnesses who saw a low, silent, old-looking propeller aircraft resembling a Second World War plane flying over Ripley and Heage, with another witness describing two such planes near Hope in the Peak District. No engine noise or smoke was reported and no aircraft was identified. Coordinates are for Ripley (approximate; sightings were spread across the county).",
+   "tags": [
+    "phantom aircraft",
+    "ghost plane",
+    "Peak District",
+    "WWII"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 14.07 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2015/08/14-07-mu-podcast/"
+    },
+    {
+     "name": "Derbyshire Times — Reports of 'ghost plane' spotted flying over Derbyshire",
+     "url": "https://www.derbyshiretimes.co.uk/news/reports-of-ghost-plane-spotted-flying-over-derbyshire-809310"
+    },
+    {
+     "name": "Dr David Clarke — Ghost Fliers",
+     "url": "http://drdavidclarke.co.uk/urban-legendary/ghost-fliers/"
+    }
+   ],
+   "episode_id": "14-07-mu-podcast",
+   "excerpt": "We then investigate recent reports of 'Ghost fliers' in the UK and unravel decades of eerie phenomenon reported on the moors, all before discovering the underground community of xenomeliacs in our Plus+ extension.\nShow-notes links: 'Ghost plane' spotted in the skies of Derbyshire — http://www.derbytelegraph.co.uk/Ghost-plane-spotted-skies-Derbyshire/story-27563571-detail/story.html#ixzz3io4q7RNk · More witnesses to mystery 'ghost plane' over Derbyshire come forward — http://www.derbytelegraph.co.uk/witnesses-mystery-flight-come-forward/story-27574679-detail/story.html#ixzz3io4wLVu7 · Ghost Plane Seen by Multiple Witnesses in England — https://mysteriousuniverse.org/2015/08/ghost-plane-seen-by-multiple-witnesses-in-england/"
+  },
+  {
+   "title": "Rougham disappearing house",
+   "cat": "timeslip",
+   "date": "",
+   "place": "Fields near Colville's Grove, Rougham / Bradfield St George, Suffolk",
+   "lat": 52.2229,
+   "lon": 0.8032,
+   "desc": "A red-brick Georgian mansion with gates and gardens is said to appear in fields outside Rougham and then vanish; reported sightings run from 1860 (Robert Palfrey) and c.1908 (James Cobbald and George Waylett) through the 20th century to 2007 (Jean Bartram). Witnesses describe a sudden chill and the house disappearing when they looked away or returned. Coordinates are for Rougham village (approximate).",
+   "tags": [
+    "phantom house",
+    "time slip",
+    "vanishing house",
+    "Suffolk"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 13.20 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2015/05/13-20-mu-podcast/"
+    },
+    {
+     "name": "A Beckoning World — Three Strange and Mysterious Stories from Suffolk",
+     "url": "https://abeckoningworld.substack.com/p/three-strange-and-mysterious-stories"
+    }
+   ],
+   "episode_id": "13-20-mu-podcast",
+   "excerpt": "We also feature the dopamine loop of modern technological addiction and the mysterious cases of vanishing houses in Suffolk in our Plus+ extension."
+  },
+  {
+   "title": "St Chad's Church, Rochdale – the Goblin Builders",
+   "cat": "other",
+   "date": "",
+   "place": "St Chad's Church, Sparrow Hill, Rochdale, Greater Manchester (historic Lancashire)",
+   "lat": 53.6148,
+   "lon": -2.1577,
+   "desc": "Lancashire legend holds that when the Saxon thane Gamel began a chapel to St Chad by the River Roach, unseen goblin builders repeatedly carried the stones and timber overnight up the hill across the river, where the church was finally built and reached by 124 steps. Versions add a mute boy who vanished while watching the site and returned as a changeling.",
+   "tags": [
+    "goblins",
+    "church-moving legend",
+    "folklore",
+    "Lancashire"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 13.21 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2015/06/13-21-mu-podcast/"
+    },
+    {
+     "name": "Mysterious Britain — Saint Chad's Parish Church, Rochdale",
+     "url": "https://www.mysteriousbritain.co.uk/?p=3969"
+    }
+   ],
+   "episode_id": "13-21-mu-podcast",
+   "excerpt": "We also feature pre-birth memories of the 'waiting room' before incarnation along with phantom hitchhikers and Lancashire's 'Goblin builders'.\nShow-notes links: Paranormal Lancashire — http://www.amazon.com/gp/product/1445606585/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1445606585&linkCode=as2&tag=mysteruniver-20&linkId=NH6WD5W7A7HR3EEV"
+  },
+  {
+   "title": "Silbury Hill crop circle 'tall blond figures'",
+   "cat": "encounter",
+   "date": "2009/07/06",
+   "place": "Field near Silbury Hill, Avebury, Wiltshire",
+   "lat": 51.4157,
+   "lon": -1.8574,
+   "desc": "An off-duty police sergeant from Marlborough driving past a newly formed crop circle near Silbury Hill reported three figures over six feet tall with blond hair, in white coveralls, apparently inspecting the crop amid a crackling static-like sound. When he tried to enter the field they ran off faster than any man he had seen and vanished when he looked away; the story was published in October 2009.",
+   "tags": [
+    "crop circle",
+    "humanoids",
+    "police witness",
+    "Wiltshire"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 2.10 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2009/11/2.10-MU-Podcast/"
+    },
+    {
+     "name": "Mysterious Britain — Aliens Sighted at Crop Circle",
+     "url": "https://mysteriousbritain.co.uk/?p=3386"
+    }
+   ],
+   "episode_id": "2.10-mu-podcast",
+   "excerpt": "This week's venture kicks of with a number of strange entity encounters before we return to the topic of exopolitics, and UFO disclosure from the White House, rumored to be due this month.\nShow-notes links: Off-duty cop spots aliens at crop circle — http://www.capecodonline.com/apps/pbcs.dll/article?AID=/20091025/NEWS11/910259983/-1/NEWSMAP"
+  },
+  {
+   "title": "Rossendale fairy photographs",
+   "cat": "encounter",
+   "date": "2014",
+   "place": "Rossendale, Lancashire (exhibited at the Whitaker museum, Whitaker Park, Rawtenstall)",
+   "lat": 53.7005,
+   "lon": -2.2954,
+   "desc": "Manchester School of Art lecturer John Hyatt said that enlarged photographs he had taken of fast-moving insects and birds in Rossendale showed small humanoid winged figures, which he exhibited as possible fairies at the Whitaker museum in 2014. He said the images were unaltered beyond enlargement; sceptics suggested insects such as mayflies. Coordinates are for Whitaker Park (area-level).",
+   "tags": [
+    "fairies",
+    "photographs",
+    "Lancashire"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 9.13 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2014/04/9-13-mu-plus-podcast/"
+    },
+    {
+     "name": "Strange History — The Rossendale Fairies Photographed?",
+     "url": "http://www.strangehistory.net/2014/04/06/rossendale-fairies/"
+    }
+   ],
+   "episode_id": "9-13-mu-plus-podcast",
+   "excerpt": "Chupacabras, Fairies, and dodgey Russian kickstarter campaigns all compete for the most ridiculous story of the week on this Plus+ exclusive.\nShow-notes links: BRITISH PROFESSOR CLAIMS TO HAVE PHOTOGRAPHED FAIRIES! — http://dangerousminds.net/comments/british_professor_claims_to_have_photographed_fairies · The Rossendale Fairies Photographed? — http://www.strangehistory.net/2014/04/06/rossendale-fairies/"
+  },
+  {
+   "title": "Big Grey Man of Ben Macdui",
+   "cat": "cryptid",
+   "date": "1891",
+   "place": "Ben Macdui summit plateau, Cairngorms",
+   "lat": 57.0704,
+   "lon": -3.6691,
+   "desc": "Am Fear Liath Mòr, the 'Big Grey Man', is a presence reported on Ben Macdui, chiefly as giant crunching footsteps, voices and an overwhelming panic, and occasionally as a tall grey figure. Professor J. Norman Collie described fleeing in mist from footsteps with strides several times his own in 1891, telling the Cairngorm Club in 1925.",
+   "tags": [
+    "Am Fear Liath Mor",
+    "haunted mountain",
+    "Cairngorms",
+    "giant"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 13.08 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2015/02/13-08-mu-podcast/"
+    },
+    {
+     "name": "Mysterious Universe — 9.17 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2014/05/9-17-mu-plus-podcast/"
+    },
+    {
+     "name": "ShukerNature — The Big Grey Man of Ben Macdhui",
+     "url": "http://karlshuker.blogspot.com/2014/05/the-big-grey-man-of-ben-macdhui.html"
+    }
+   ],
+   "episode_id": "9-17-mu-plus-podcast",
+   "excerpt": "Show-notes links: THE BIG GREY MAN OF BEN MACDHUI - BRITAIN'S VERY OWN BIGFOOT? — http://karlshuker.blogspot.com.au/2014/05/the-big-grey-man-of-ben-macdhui.html",
+   "extra_episodes": [
+    {
+     "episode_id": "13-08-mu-podcast",
+     "evidence": "link-title",
+     "excerpt": "Show-notes links: Climbers mystified by 'bloodcurdling screaming' — http://www.bbc.com/news/uk-scotland-highlands-islands-31550374 · THE BIG GREY MAN OF BEN MACDHUI - BRITAIN'S VERY OWN BIGFOOT? — http://karlshuker.blogspot.com.au/2014/05/the-big-grey-man-of-ben-macdhui.html"
+    }
+   ]
+  },
+  {
+   "title": "Man-Monkey of the Shropshire Union Canal",
+   "cat": "cryptid",
+   "date": "1879/01",
+   "place": "Canal bridge near Norbury Junction, Shropshire Union Canal, Staffordshire",
+   "lat": 52.8026,
+   "lon": -2.307,
+   "desc": "In January 1879 a labourer taking a cart from Ranton to Newport reported that at about 10pm a strange black creature with enormous eyes sprang onto his horse at a canal bridge just outside Norbury, and his whip passed straight through it. Nick Redfern's book presents the 'Man-Monkey' as Britain's Bigfoot; coordinates are for Norbury Junction (approximate).",
+   "tags": [
+    "Man-Monkey",
+    "British Bigfoot",
+    "canal ghost",
+    "Staffordshire"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 12.20 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2014/11/12-20-mu-podcast/"
+    },
+    {
+     "name": "Canal & River Trust — A ghostly guide to the Shropshire Union Canal",
+     "url": "https://canalrivertrust.org.uk/news-and-views/features/ghostly-guide-to-the-shropshire-union-canal"
+    }
+   ],
+   "episode_id": "12-20-mu-podcast",
+   "excerpt": "Show-notes links: MAN-MONKEY - In Search of the British Bigfoot — http://www.amazon.com/gp/product/1905723164/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1905723164&linkCode=as2&tag=mysteruniver-20&linkId=SJJ4BEWJ5FG54GUQ"
+  },
+  {
+   "title": "Sir Peter Horsley meets 'Mr Janus'",
+   "cat": "encounter",
+   "date": "",
+   "place": "Flat in Chelsea, London",
+   "lat": 51.4889,
+   "lon": -0.1654,
+   "desc": "Air Marshal Sir Peter Horsley, then equerry to the Duke of Edinburgh in the 1950s, said he was directed to a Chelsea flat where a stranger calling himself 'Mr Janus' talked with him for hours about flying saucers and travel in space and time. Horsley believed Janus could read his mind and was observing humanity, and never saw him again. Coordinates are for Chelsea (area-level).",
+   "tags": [
+    "contactee",
+    "royal household",
+    "RAF",
+    "London"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 13.12 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2016/03/13-12-mu-plus-podcast/"
+    },
+    {
+     "name": "Nick Redfern — Mr. Janus Comes Calling",
+     "url": "http://redfern-files.blogspot.com/2012/01/mr-janus-comes-calling.html"
+    }
+   ],
+   "episode_id": "13-12-mu-plus-podcast",
+   "excerpt": "Show-notes links: British Military and Royal Staff Member Sir Peter Horsley's Meets ET — https://www.youtube.com/watch?v=dDQKm18MAKw · Mr. Janus Comes Calling — http://redfern-files.blogspot.com.au/2012/01/mr-janus-comes-calling.html"
+  },
+  {
+   "title": "UB-85 'sea monster' U-boat",
+   "cat": "cryptid",
+   "date": "1918/04",
+   "place": "Off Stranraer / Loch Ryan approaches, North Channel, Dumfries and Galloway",
+   "lat": 54.97,
+   "lon": -5.05,
+   "desc": "According to a tale attributed to Captain Krech, German submarine UB-85 was recharging on the surface at night in April 1918 when a creature with large eyes in a horny skull and glistening teeth rose alongside, damaging the deck so the boat could not dive; official records say it surrendered to HMS Coreopsis on 30 April 1918. A wreck thought to be UB-85 was found off Stranraer by Scottish Power cable engineers in 2016. Coordinates are approximate (off Stranraer).",
+   "tags": [
+    "sea serpent",
+    "U-boat",
+    "WWI",
+    "North Channel"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 14.15 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2016/10/14-15-mu-plus-podcast/"
+    },
+    {
+     "name": "ITV News — WWI submarine which was 'attacked by strange beast' found",
+     "url": "https://itv.com/news/border/2016-10-19/ww1-submarine-wreckage-found-off-stranraer-coast"
+    }
+   ],
+   "episode_id": "14-15-mu-plus-podcast",
+   "excerpt": "Show-notes links: Wreck of German submarine 'attacked by sea monster' found off Scotland — http://www.heraldscotland.com/news/14809366.Wreck_of_German_submarine___39_attacked_by_sea_monster__39__found_off_Scotland/"
+  },
+  {
+   "title": "Macclesfield 'flying man' near-miss",
+   "cat": "encounter",
+   "date": "2014/06/13",
+   "place": "Skies over Macclesfield, Cheshire (approach to Manchester Airport)",
+   "lat": 53.2607,
+   "lon": -2.1255,
+   "desc": "The pilots of an Airbus A320 on approach to Manchester reported a human-shaped flying object at about 3,300 ft over Macclesfield that passed roughly 100 m to the aircraft's left without any visible canopy. The UK Airprox Board rated the risk as serious and suggested a paraglider, unopened wingsuit jumper or human-shaped balloon; nothing showed on radar.",
+   "tags": [
+    "flying humanoid",
+    "Airprox",
+    "airliner",
+    "Cheshire"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 10.15 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2014/10/10-15-mu-plus-podcast/"
+    },
+    {
+     "name": "aeroTELEGRAPH — Airbus A320 in Grossbritannien: fast Kollision mit Mensch",
+     "url": "https://www.aerotelegraph.com/airbus-a320-grossbritannien-fast-kollision-gleitschirm-wingsuit-mensch"
+    },
+    {
+     "name": "Dread Central — Flying Man in the UK",
+     "url": "https://www.dreadcentral.com/news/76018/gasp-menagerie-flying-man-uk/"
+    }
+   ],
+   "episode_id": "10-15-mu-plus-podcast",
+   "excerpt": "Flying humanoids buzzing UK flights, advancements in human genome engineering, and Pablo Escobar's hippos complete the eclectic mix for this week's Plus+ exclusive.\nShow-notes links: Passengers baffled by man ‘flying’ past their plane — http://metro.co.uk/2014/10/18/passengers-baffled-by-man-flying-past-their-plane-4911018/"
+  },
+  {
+   "title": "Vampire dwarf of Rainham",
+   "cat": "encounter",
+   "date": "1982/11",
+   "place": "Family house, Rainham, Essex (London Borough of Havering)",
+   "lat": 51.5167,
+   "lon": 0.1997,
+   "desc": "Sally McConnell said that in November 1982, aged 15 and alone at home, she saw a small hairless creature with black eyes, sunken cheeks and claws hanging over the banister of her brother's loft room and hissing at her. Two days later a brass plate fell or was thrown down the stairs while she told the story; Neil Arnold published the account in 2009. Coordinates are for Rainham (area-level).",
+   "tags": [
+    "vampire",
+    "entity",
+    "poltergeist",
+    "Essex"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 2.01 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2009/09/2.01-MU-Podcast/"
+    },
+    {
+     "name": "CFZ blog — Neil Arnold's Weird Tales: The Vampire Dwarf of Essex",
+     "url": "http://forteanzoology.blogspot.com/2009/08/neil-arnolds-weird-tales-vampire-dwarf.html"
+    }
+   ],
+   "episode_id": "2.01-mu-podcast",
+   "excerpt": "Show-notes links: Neil Arnold’s Weird Tales: The Vampire Dwarf Of Essex — http://forteanzoology.blogspot.com/2009/08/neil-arnolds-weird-tales-vampire-dwarf.html"
+  },
+  {
+   "title": "Highgate 'hypnotist' thief",
+   "cat": "other",
+   "date": "2014/12",
+   "place": "Off-licence, Highgate, north London",
+   "lat": 51.5706,
+   "lon": -0.1492,
+   "desc": "In December 2014 police released CCTV from an off-licence in Highgate showing a man who asked for water for his 'pregnant wife', touched the shopkeeper's stomach and shoulder and then took cash from his pockets while the shopkeeper stood motionless as if in a trance. The shopkeeper appeared to come round and follow him as he left. Coordinates are for Highgate (area-level).",
+   "tags": [
+    "hypnosis",
+    "crime",
+    "London"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 10.22 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2014/12/10-22-mu-plus-podcast/"
+    },
+    {
+     "name": "IBTimes UK — Hypnotist thief steals from shopkeeper after 'sending him into trance'",
+     "url": "https://www.ibtimes.co.uk/hypnotist-thief-steals-shopkeeper-after-sending-him-into-trance-1478270"
+    }
+   ],
+   "episode_id": "10-22-mu-plus-podcast",
+   "excerpt": "On this Plus+ exclusive we investigate the UK's elusive \"Hypnotist Bandit\", discover the heart's influence on the brain, and unleash some Gypsy magic."
+  },
+  {
+   "title": "Stonehenge",
+   "cat": "ritual",
+   "date": "",
+   "place": "Stonehenge, Salisbury Plain, Wiltshire",
+   "lat": 51.1788,
+   "lon": -1.8262,
+   "desc": "The prehistoric stone circle on Salisbury Plain was built in phases from about 3100 to 1600 BC and is aligned on the summer-solstice sunrise and winter-solstice sunset, with bluestones brought from the Preseli Hills in Wales. Neo-druid and pagan solstice gatherings have taken place there since the early 20th century.",
+   "tags": [
+    "megalith",
+    "solstice",
+    "druids",
+    "sacred site"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 10.16 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2013/10/10-16-mu-podcast/"
+    },
+    {
+     "name": "Mysterious Universe — 14.24 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2015/12/14-24-mu-podcast/"
+    },
+    {
+     "name": "Wikipedia — Stonehenge",
+     "url": "https://en.wikipedia.org/wiki/Stonehenge"
+    }
+   ],
+   "episode_id": "10-16-mu-podcast",
+   "excerpt": "Show-notes links: 'Stonehenge's secret revealed at last': Ice Age man was drawn nearby pools which never froze over — http://www.dailymail.co.uk/news/article-2467237/Stonehenges-secret-revealed-Ice-Age-man-drawn-pools-near-famous-site-froze-over.html#ixzz2idHj1tkf",
+   "extra_episodes": [
+    {
+     "episode_id": "14-24-mu-podcast",
+     "evidence": "link-title",
+     "excerpt": "Show-notes links: Stonehenge may have been first erected in Wales, evidence suggests — http://www.theguardian.com/uk-news/2015/dec/07/stonehenge-first-erected-in-wales-secondhand-monument?CMP=fb_a-science_b-gdnscience"
+    }
+   ]
+  },
+  {
+   "title": "Tower of London ritual protection marks",
+   "cat": "ritual",
+   "date": "",
+   "place": "Tower of London, London",
+   "lat": 51.5082,
+   "lon": -0.0762,
+   "desc": "A 2015 survey for Historic Royal Palaces recorded 54 apotropaic marks at the Tower of London, mostly from the mid-16th to 18th centuries, including 'double V' and mesh symbols and deliberate scorch marks, plus 18th-century objects concealed in a chimney. They were interpreted as staff using folk magic to ward off evil.",
+   "tags": [
+    "witch marks",
+    "apotropaic",
+    "folk magic",
+    "London"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 14.17 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2015/10/14-17-mu-podcast/"
+    },
+    {
+     "name": "GIGAZINE — The Tower of London was given magic to prevent the power of the devil",
+     "url": "https://gigazine.net/gsc_news/en/20151019-london-tower-magic"
+    }
+   ],
+   "episode_id": "14-17-mu-podcast",
+   "excerpt": "Show-notes links: Tower of London staff 'used magic to repel the forces of the Devil' — http://www.independent.co.uk/news/science/archaeology/tower-of-london-staff-used-magic-to-repel-the-forces-of-the-devil-a6697476.html"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "british-big-cats",
+   "episode_id": "8-17-mu-plus-podcast",
+   "excerpt": "This week's Plus+ episode is jam packed with the latest news including Big Cats in Britain, Sasquatch hunting with Dick Cheney, and more on the mysterious African coins found in Northern Australia.\nShow-notes links: Big cats DO live in British countryside claims expert after analysing bodies of animals slaughtered in mysterious circumstances — http://www.dailymail.co.uk/news/article-2486739/Big-cats-DO-live-British-countryside-claims-expert-analysing-bodies-animals-slaughtered-mysterious-circumstances.html#ixzz2jfkIwiRJ",
+   "evidence": "notes"
+  },
+  {
+   "theme": "british-fairy-encounters",
+   "episode_id": "10-01-mu-plus-podcast",
+   "excerpt": "We also feature a rediscovered archive on modern day fairy encounters along with some rather physical reports on the \"Third Man Effect\".\nShow-notes links: Seeing Fairies is Out: Lost Manuscript Found — http://www.strangehistory.net/2014/07/09/seeing-fairies-lost-manuscript-found/ · SEEING FAIRIES: From the Lost Archives of the Fairy Investigation Society, Authentic Reports of Fairies in Modern Times by Marjorie T. Johnson — http://www.amazon.com/gp/product/1938398262/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1938398262&linkCode=as2&tag=mysteruniver-20&linkId=OUS3DBJ4OI2Z6EOF",
+   "evidence": "notes"
+  },
+  {
+   "theme": "british-fairy-encounters",
+   "episode_id": "11-03-mu-podcast",
+   "excerpt": "We also feature a new edition of Janet Bord's collection of 'Real' encounters with Fae folk, furry uninvited humanoids, and the alternative history timelines from very left of field.",
+   "evidence": "notes"
+  },
+  {
+   "theme": "ghost-stations-raf-airfields",
+   "episode_id": "14-08-mu-plus-podcast",
+   "excerpt": "We then feature the 'Ghost Stations' of Germany and the UK with tales of phantom WWII bombers, time slips, and tea parties.\nShow-notes links: Ghost Stations: Bk. 1: True Ghost Stories — https://www.amazon.com/gp/product/1871448107/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1871448107&linkId=d0f2c0671d2e258d907387a6a90642b0",
+   "evidence": "notes"
+  },
+  {
+   "theme": "ghost-stations-raf-airfields",
+   "episode_id": "16-09-mu-podcast",
+   "excerpt": "Show-notes links: Ghost Stations Yorkshire: True Ghost - Mystery Stories — https://www.amazon.com/gp/product/1871448050/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1871448050&linkId=6f01bb94c42ca007c472d668ef247646 · Ghost Stations: Bk. 3: True Ghost Stories — https://www.amazon.com/gp/product/1871448123/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1871448123&linkId=492fa60e4979eabbec7fe95c158a9f6a",
+   "evidence": "link-title"
+  },
+  {
+   "theme": "uk-mystery-booms-2014",
+   "episode_id": "12-22-mu-podcast",
+   "excerpt": "We also feature the latest on the mysterious boom sounds heard in the UK, New York, France, and now here in Sydney.\nShow-notes links: Space debris or spy-planes? Mystery deepens as loud bangs heard across UK and now Sydney — http://www.express.co.uk/news/uk/542119/Mystery-explosions-Britain-unexplainable-loud-bangs · Listen! Mystery 'Booms' Heard From London to New York!!! UFO, Spy Planes? — https://www.youtube.com/watch?v=Y3A2CG-lkYc · 'Mystery Bangs' Over UK Sounded Like Secret 'Pulsejet Engine' — http://www.huffingtonpost.co.uk/2014/12/01/mystery-bangs-uk-conspiracy_n_6246630.html · Mystery booms: What’s the cause? — http://www.bbc.com/future/story/20141202-mystery-booms-whats-the-cause",
+   "evidence": "notes"
+  },
+  {
+   "theme": "dragon-project",
+   "episode_id": "13-13-mu-plus-podcast",
+   "excerpt": "Dreams and mysticism in scientific discoveries starts us on the path of dream incubation and Paul Devereux's 'Dragon Project'.\nShow-notes links: Paul Devereux - Sacred Sites and Dreams — http://www.pauldevereux.co.uk/",
+   "evidence": "notes"
+  },
+  {
+   "theme": "ley-lines",
+   "episode_id": "15-11-mu-podcast",
+   "excerpt": "Show-notes links: The Sacred Network: Megaliths, Cathedrals, Ley Lines, and the Power of Shared Consciousness — http://www.amazon.com/gp/product/1594773815/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1594773815&linkCode=as2&tag=mysteruniver-20&linkId=SOTLXOQBGIUS5YFJ",
+   "evidence": "link-title"
+  },
+  {
+   "theme": "mod-ufo-files",
+   "episode_id": "4.27-mu-podcast",
+   "excerpt": "Show-notes links: 4. UK UFO File Release — http://www.ufomystic.com/2010/02/18/mod-ufo-files-released/",
+   "evidence": "link-title"
+  }
+ ],
+ "notes": "Uncertain / not added:\n- 9.15 (Yorkshire), 10.04 (Ilkley), 14.04 (Calvine), 14.05 (Rendlesham, dogmen), 14.10 (Loch Ness), 16.03 (Spring-heeled Jack), 12.23 (Broad Haven/The Uninvited), 2.01 (Nessie on Google Earth) were already linked in current_mu_links.json and are not repeated. 14-10's Redfern book on Loch Ness is covered by the existing loch-ness entity link.\n- 11.14 link 'Two police officers in UK encounter UFO (researcher Tony Dodd's sighting)' (ufoevidence case662): Tony Dodd's own 1978 police sighting in North Yorkshire (often placed near Cracoe). Could not open any independent source (ufoevidence blocked by robots) so not added as a new case; worth adding if a source is found.\n- 2.12 link 'UFOs over Heathrow Airport' (ufocasebook 2009d): a 2009 report, page unreachable; it is NOT the existing heathrow-controllers-boomerang-1992 case.\n- 2.07 'Tutu-wearing alien spotted in Winchester' (Metro, Oct 2009) and 2.11 'Cllr Adrian Hicks demands answers over extra-terrestrials' / 'Derek's close encounter' (thisishampshire.net, Oct 2009): Hampshire 2009 stories, all source pages blocked or dead, so not added.\n- 13.08 link 'Climbers mystified by bloodcurdling screaming' (BBC Highlands, Feb 2015): BBC blocked and could not confirm the mountain; included only as an extra link on the Big Grey Man new case.\n- 3.23 'Crop Circle' / 'Crop Circle Decoded': URLs name the Wilton Windmill (Wiltshire) crop circle of 22 May 2010, but the link titles do not and both pages were robots-blocked. Not added.\n- 15.07 'high strangeness in Scotland and Wales': no notes or links say which cases; not resolvable from the episode page (it repeats the notes).\n- 3.16 links 'ALIENS are attacking our SHEEP' (The Sun 2010, UK sheep deaths) and 'The ghost in my garage' (Daily Mail 2010, tyre-depot phantom): UK stories but pages blocked and no place confirmed.\n- 8.14 'UK Humanoid Video' (Cryptomundo 2013): CCTV of a figure on a UK motorway, location unknown; not added.\n- 12.20 Plus+ (12-20-mu-plus-podcast) 'Psychics called to Paignton antique store after demonic cupboard upsets Emily the resident ghost': bare news link, source not verifiable; not added.\n- 11.06 'Troll Runs After Train in Flooded England!' (2014 viral video): source page now dead; not added.\n- 3.06 'UFO spotted above Ireland': the notes themselves say the video was filmed in Fremont, California, so skipped.\n- 13.21 'Goblin builders': the notes say only Lancashire's 'Goblin builders'. I matched this to the classic Rochdale St Chad's 'Goblin Builders' legend (Roby), but Bowker's Goblin Tales of Lancashire also has a church-moving tale at Leyland/Whittle-le-Woods ('The Spectral Cat'), so the episode may have covered both.\n- 13.20 'vanishing houses in Suffolk' (plural): Rougham/Bradfield St George is the classic Suffolk case, but the episode may also have covered others; the Kersey time slip (already on the map) is a possible second, not linked because the notes do not name it.\n- 14.07: 2015 Derbyshire ghost plane details are taken from a Derbyshire Times report that I could not date for certain (the original Derby Telegraph links in the show notes are blocked). The links to the Howden Moor 1997 and Ladybower 1982 cases rest on the 'decades of eerie phenomenon reported on the moors' line plus the linked David Clarke 'Ghost Fliers' page, which covers both cases.\n- 15.11 link to Rollright rests on the Dragon Project (Devereux), whose long-term monitoring centred on the Rollright Stones/King Stone (Northern Antiquarian page).\n- 10.15: the description says 'Flying humanoids buzzing UK flights'. The linked Metro story (blocked) is from Oct 2014. I matched it to the 13 June 2014 Macclesfield A320 Airprox report, which UK media covered that autumn.\n- Stonehenge and Big Grey Man new cases each carry an extra_episodes list for a second episode that covers the same case.\n- Skipped as not paranormal or not a UK case: Ripon school mass-nausea (12.21), the Gareth Williams MI6 death (10.19), Max Spiers (16.15), the Manchester Pusher (15.24), the St Austell clay-pit drowning (10.17), the Glastonbury occult/UKIP claim (10.04), the Scot twin telepathy news item (11.06), the Wirral Globe vardoger column (11.18, page blocked, no place), Churchill's daemon and William Stead (person, no place), and the 'Ghost Stations' books (treated as a theme)."
+}

@@ -1,0 +1,1076 @@
+{
+ "links": [
+  {
+   "case_id": "rollright-stones-witches-coven-lore-and",
+   "episode_id": "17-03-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "Show-notes links: The Rollright Stones — http://www.britainexpress.com/articles/Ancient_Britain/rollright-stones.htm · Rollright Stones — https://en.wikipedia.org/wiki/Rollright_Stones",
+   "evidence": "link-title"
+  },
+  {
+   "case_id": "meon-hill-1945-witchcraft-murder-1945",
+   "episode_id": "17-03-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "Show-notes links: Uncovering Warwickshire's Sinister Secret — http://www.bbc.co.uk/coventry/features/weird-warwickshire/1945-witchcraft-murder.shtml",
+   "evidence": "link-title",
+   "note": "Link title is 'Uncovering Warwickshire's Sinister Secret'; its BBC URL is /weird-warwickshire/1945-witchcraft-murder, i.e. the Meon Hill murder."
+  },
+  {
+   "case_id": "rendlesham-1980",
+   "episode_id": "16-01-mu-plus-podcast",
+   "relation": "covered_in",
+   "excerpt": "Show-notes links: RENDLESHAM UFO: Aliens that 'visited' RAF base were 'after nuclear weapons', says ex cop — http://www.express.co.uk/news/weird/673293/RENDLESHAM-UFO-Aliens-that-visited-RAF-base-were-after-nuclear-weapons-says-ex-cop",
+   "evidence": "link-title"
+  },
+  {
+   "case_id": "hugh-gray-s-first-nessie-photograph-1933",
+   "episode_id": "17-01-mu-plus-podcast",
+   "relation": "covered_in",
+   "excerpt": "Show-notes links: The Hugh Gray Photograph — https://lochnessmystery.blogspot.com.au/2011/06/hugh-gray-photograph-revisited_26.html",
+   "evidence": "link-title"
+  },
+  {
+   "case_id": "the-surgeon-s-photograph-hoax-1934",
+   "episode_id": "18.22-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "Show-notes links: Loch Ness Monster — https://en.wikipedia.org/wiki/Loch_Ness_Monster#.22Surgeon.27s_photograph.22_.281934.29",
+   "evidence": "link-title",
+   "note": "Link text is 'Loch Ness Monster' but the URL points to the Wikipedia section on the Surgeon's photograph (1934)."
+  },
+  {
+   "case_id": "boleskine-house-crowley-s-abramelin-work-1899",
+   "episode_id": "23.07-mu-podcast-cloud-of-the-soul",
+   "relation": "covered_in",
+   "excerpt": "Show-notes links: Boleskine House — https://www.boleskinehouse.org/history/",
+   "evidence": "link-title"
+  },
+  {
+   "case_id": "montpelier-hill-dublin-hellfire-club-lod-1735",
+   "episode_id": "21.07-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "Show-notes links: The Hell-Fire Club Dublin — http://www.abandonedireland.com/hf.html",
+   "evidence": "link-title"
+  },
+  {
+   "case_id": "hellfire-caves-west-wycombe-1750",
+   "episode_id": "21.07-mu-podcast",
+   "relation": "covered_in",
+   "excerpt": "Show-notes links: Hellfire Club — https://en.wikipedia.org/wiki/Hellfire_Club",
+   "evidence": "link-title",
+   "note": "Generic Wikipedia 'Hellfire Club' link (covers Dashwood's club / West Wycombe); weaker than the Dublin link."
+  }
+ ],
+ "new_cases": [
+  {
+   "title": "The Green Stone affair",
+   "cat": "poltergeist",
+   "date": "1979",
+   "place": "Victorian house used as a magazine office, Wolverhampton, West Midlands (approx., town-level)",
+   "lat": 52.5862,
+   "lon": -2.1288,
+   "desc": "In 1979 Graham Phillips and a team of investigators from a Midlands magazine obtained a green stone said to have belonged to Mary Queen of Scots and to a secret 'Order of Meonia'. After it was taken to the magazine's offices in an old Victorian house in Wolverhampton they reported smoke, footsteps, moving objects, a faceless figure and a fire, ending with cries and fireballs over a nearby wood. The story was told in the book 'The Green Stone'; MU's notes also link Biddulph Grange garden and the Rollright Stones. Coordinates approximate (town only).",
+   "tags": [
+    "green stone",
+    "graham phillips",
+    "andrew collins",
+    "psychic questing",
+    "order of meonia",
+    "poltergeist"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 15.03 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2017/01/15-03-mu-plus-podcast/"
+    },
+    {
+     "name": "Graham Phillips — The Green Stone",
+     "url": "http://www.grahamphillips.net/stone/stone.html"
+    }
+   ],
+   "episode_id": "15-03-mu-plus-podcast",
+   "excerpt": "The rest of the show is reserved for one of the strangest paranormal adventure tales we've ever covered. It links UFOs and ancient Egyptians, Knight's Templar, Rosicrucians, abductions, ancient artefacts, channeled writings, and secret societies and is not to be missed.\nShow-notes links: The Green Stone: A True Story of Paranormal Adventure — https://www.amazon.com/gp/product/0859780600/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0859780600&linkId=046e1eb61f49c84d28f0d54616f1c92e",
+   "extra_episodes": [
+    {
+     "episode_id": "15-04-mu-plus-podcast",
+     "episode_url": "https://mysteriousuniverse.org/2017/01/15-04-mu-plus-podcast/",
+     "excerpt": "After wrapping up our latest adventures, and reviewing that latest in Japanese variety television, we conclude the epic saga of the Green Stone.\nShow-notes links: The Graham Phillips Website — http://www.grahamphillips.net/stone/stone.html · James Bateman’s garden of creation at Biddulph Grange — https://gerryco23.wordpress.com/2015/10/11/james-batemans-garden-of-creation-at-biddulph-grange/ · The Green Stone: A True Story of Paranormal Adventure — https://www.amazon.com/gp/product/0859780600/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0859780600&linkId=b935c8ae9b98e8167f5c3552e590863b",
+     "source": {
+      "name": "Mysterious Universe — 15.04 – MU Plus+ Podcast",
+      "url": "https://mysteriousuniverse.org/2017/01/15-04-mu-plus-podcast/"
+     }
+    },
+    {
+     "episode_id": "17-03-mu-podcast",
+     "episode_url": "https://mysteriousuniverse.org/2017/01/17-03-mu-podcast/",
+     "excerpt": "Show-notes links: The Green Stone: A True Story of Paranormal Adventure — https://www.amazon.com/gp/product/0859780600/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0859780600&linkId=ccc21898a15de902d5b7d5c023b4c5cf",
+     "source": {
+      "name": "Mysterious Universe — 17.03 – MU Podcast",
+      "url": "https://mysteriousuniverse.org/2017/01/17-03-mu-podcast/"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Carew Castle: Sir Roland Rhys's ape and the White Lady",
+   "cat": "ghost",
+   "date": "",
+   "place": "Carew Castle, Carew, Pembrokeshire",
+   "lat": 51.69833,
+   "lon": -4.83056,
+   "desc": "Carew Castle is said to be haunted by a White Lady identified with Princess Nest and by the ghost of a pet ape belonging to the 17th-century recluse Sir Roland Rhys. According to the legend the ape attacked a Flemish merchant who then cursed Rhys, and both Rhys and the ape were found dead that night; the ape is said to howl from the north-west tower.",
+   "tags": [
+    "carew castle",
+    "animal ghost",
+    "ape",
+    "white lady",
+    "pembrokeshire"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 17.10 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2017/03/17-10-mu-podcast/"
+    },
+    {
+     "name": "Great Castles — The Ghosts of Carew Castle",
+     "url": "https://great-castles.com/carewghost.php"
+    },
+    {
+     "name": "Wikipedia — Carew Castle",
+     "url": "https://en.wikipedia.org/wiki/Carew_Castle"
+    }
+   ],
+   "episode_id": "17-10-mu-podcast",
+   "excerpt": "Show-notes links: The Ghosts of Carew Castle — https://great-castles.com/carewghost.php",
+   "extra_episodes": [
+    {
+     "episode_id": "19-19-mu-plus-podcast",
+     "episode_url": "https://mysteriousuniverse.org/2019/05/19-19-mu-plus-podcast/",
+     "excerpt": "Show-notes links: Carew Castle — http://www.castlewales.com/carew.html",
+     "source": {
+      "name": "Mysterious Universe — 19.19 – MU Plus+ Podcast",
+      "url": "https://mysteriousuniverse.org/2019/05/19-19-mu-plus-podcast/"
+     }
+    }
+   ]
+  },
+  {
+   "title": "James Tilly Matthews and the 'Air Loom'",
+   "cat": "other",
+   "date": "1796",
+   "place": "Bethlem Hospital (Bedlam), Moorfields by London Wall, City of London (approx.)",
+   "lat": 51.5178,
+   "lon": -0.0868,
+   "desc": "Tea-broker James Tilly Matthews was confined to Bethlem after interrupting a House of Commons debate in December 1796. He believed a gang working from a cellar by London Wall controlled his mind with an 'Air Loom' influencing machine, which apothecary John Haslam illustrated in 'Illustrations of Madness' (1810). It is often cited as the first detailed account of an 'influencing machine' delusion.",
+   "tags": [
+    "air loom",
+    "influencing machine",
+    "mind control",
+    "bethlem",
+    "bedlam"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 17.08 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2017/03/17-08-mu-podcast/"
+    },
+    {
+     "name": "Mike Jay — James Tilly Matthews and the Air Loom",
+     "url": "https://mikejay.net/james-tilly-matthews-and-the-air-loom/"
+    }
+   ],
+   "episode_id": "17-08-mu-podcast",
+   "excerpt": "Show-notes links: Air Loom: The Curious Case of James Tilly Matthews — http://www.abovetopsecret.com/forum/thread940867/pg1 · JAMES TILLY MATTHEWS AND THE AIR LOOM — https://mikejay.net/james-tilly-matthews-and-the-air-loom/ · About The Air Loom — http://www.theairloom.org/info.php · The Influencing Machine — http://cabinetmagazine.org/issues/14/turner.php · The Influencing Machine — https://www.amazon.com/gp/product/1907222138/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1907222138&linkId=e1704de0264e4db0e1412c2acf18075f"
+  },
+  {
+   "title": "Findhorn garden and the devas",
+   "cat": "other",
+   "date": "1962/11/17",
+   "place": "The Park, Findhorn, Moray",
+   "lat": 57.6537,
+   "lon": -3.5937,
+   "desc": "Eileen and Peter Caddy and Dorothy Maclean settled at the caravan park at Findhorn Bay in November 1962 and became known for a garden producing exceptionally large vegetables on poor sandy soil. They credited it to Maclean's communication with nature spirits she called devas; sceptics point to the local microclimate and donated manure. The community became the Findhorn Foundation (registered 1972). Coordinates approximate.",
+   "tags": [
+    "findhorn",
+    "devas",
+    "nature spirits",
+    "caddy",
+    "dorothy maclean"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 15.16 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2017/04/15-16-mu-plus-podcast/"
+    },
+    {
+     "name": "Wikipedia — Findhorn Foundation",
+     "url": "https://en.wikipedia.org/wiki/Findhorn_Foundation"
+    }
+   ],
+   "episode_id": "15-16-mu-plus-podcast",
+   "excerpt": "This week we look at the strange origins of the Findhorn foundation and their miraculous garden. Just how did three unemployed meditators defy belief and turn dry, lifeless land into one of Scotland's greatest garden? What was the secret to the soil they kept hidden for years?\nShow-notes links: The Findhorn Foundation — https://www.findhorn.org/about-us/ · The Findhorn Garden Story: Inspired Color Photos Reveal the Magic — https://www.amazon.com/gp/product/184409135X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=184409135X&linkId=2c9c178622e0ee9607f184050e240b6d · The Findhorn Garden: Pioneering a New Vision of Man and Nature in Cooperation — https://www.amazon.com/gp/product/0060905204/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0060905204&linkId=801a0c80428249515048df8c344a076b",
+   "extra_episodes": [
+    {
+     "episode_id": "18-13-mu-plus-podcast",
+     "episode_url": "https://mysteriousuniverse.org/2018/09/18-13-mu-plus-podcast/",
+     "excerpt": "Show-notes links: Findhorn and Dorothy Maclean — http://oaks.nvg.org/findhorn.html",
+     "source": {
+      "name": "Mysterious Universe — 18.13 – MU Plus+ Podcast",
+      "url": "https://mysteriousuniverse.org/2018/09/18-13-mu-plus-podcast/"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Hairy Hands of Dartmoor",
+   "cat": "encounter",
+   "date": "1921",
+   "place": "B3212 between Postbridge and Two Bridges, Dartmoor, Devon (approx.)",
+   "lat": 50.579,
+   "lon": -3.93,
+   "desc": "From about 1910 drivers and cyclists on the B3212 between Postbridge and Two Bridges reported swerving accidents, blamed on invisible or hairy hands seizing the controls. A fatal motorcycle crash in June 1921 and an army captain's report in August 1921 that unseen hands forced him off the road brought national attention, and a camper reported a hairy hand at her caravan in 1924. Coordinates approximate (stretch of road).",
+   "tags": [
+    "hairy hands",
+    "dartmoor",
+    "b3212",
+    "postbridge",
+    "road ghost"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 15.21 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2017/06/15-21-mu-plus-podcast/"
+    },
+    {
+     "name": "Wikipedia — Hairy Hands",
+     "url": "https://en.wikipedia.org/wiki/Hairy_Hands"
+    }
+   ],
+   "episode_id": "15-21-mu-plus-podcast",
+   "excerpt": "Show-notes links: The Hairy Hands Horror — https://mysteriousuniverse.org/2011/11/the-hairy-hands-horror/"
+  },
+  {
+   "title": "Silent 'ghost planes' over Derbyshire",
+   "cat": "other",
+   "date": "2018",
+   "place": "Hope, Peak District, and Ripley, Derbyshire (approx.)",
+   "lat": 53.3466,
+   "lon": -1.744,
+   "desc": "In 2018 witnesses in Derbyshire reported low, silent, old-looking propeller aircraft that vanished. A driver near Hope said two green WWII-style planes appeared to dive and disappear while her radio lost signal, and a man in Ripley described a dark silent WWII-type plane vanishing behind trees; an older sighting on the A6 near Rowsley was also reported. Coordinates approximate (Hope).",
+   "tags": [
+    "ghost plane",
+    "phantom aircraft",
+    "peak district",
+    "derbyshire"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 17.18 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2018/05/17-18-mu-plus-podcast/"
+    },
+    {
+     "name": "Derbyshire Times — Reports of 'ghost plane' spotted flying over Derbyshire",
+     "url": "https://www.derbyshiretimes.co.uk/news/reports-of-ghost-plane-spotted-flying-over-derbyshire-809310"
+    }
+   ],
+   "episode_id": "17-18-mu-plus-podcast",
+   "excerpt": "Show-notes links: Silent 'WW2 ghost plane' terrifies locals as it flies over Derbyshire — https://www.express.co.uk/news/weird/940757/Ghost-WW2-plane-terrifies-locals-Derbyshire · Dozens more sightings of silent ghost plane over Derbyshire — https://www.derbytelegraph.co.uk/news/derby-news/hercules-ghost-plane-derbyshire-1392551",
+   "extra_episodes": [
+    {
+     "episode_id": "21.19-mu-podcast",
+     "episode_url": "https://mysteriousuniverse.org/2019/05/21.19-MU-Podcast/",
+     "excerpt": "Show-notes links: Dozens of Witnesses Report Silent, Sky Darkening Ghost Planes in England—Again — https://mysteriousuniverse.org/2018/03/ghost-plane-sighting-england-derbyshire-dark-peak/",
+     "source": {
+      "name": "Mysterious Universe — 21.19 – MU Podcast",
+      "url": "https://mysteriousuniverse.org/2019/05/21.19-MU-Podcast/"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Phantom No. 7 bus of Ladbroke Grove",
+   "cat": "ghost",
+   "date": "",
+   "place": "Cambridge Gardens, Ladbroke Grove, North Kensington, London",
+   "lat": 51.5183,
+   "lon": -0.2102,
+   "desc": "In the 1930s a motorist swerved off the road at Cambridge Gardens late at night; accounts say he crashed or claimed a lit red No. 7 double-decker had forced him off. Other drivers at the same spot around 1:15 am described a driverless, unlit bus speeding down the road that then vanished, though no buses were scheduled.",
+   "tags": [
+    "phantom bus",
+    "ghost vehicle",
+    "ladbroke grove",
+    "london"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 17.18 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2018/05/17-18-mu-plus-podcast/"
+    },
+    {
+     "name": "Londonist — London's phantom double decker bus",
+     "url": "https://londonist.com/2016/10/londons-phantom-double-decker-bus"
+    }
+   ],
+   "episode_id": "17-18-mu-plus-podcast",
+   "excerpt": "Show-notes links: The Phantom Bus Of London — https://listverse.com/2013/07/16/10-creepy-and-mysterious-phantom-vehicles/"
+  },
+  {
+   "title": "Woolwich Foot Tunnel time anomaly",
+   "cat": "timeslip",
+   "date": "2011",
+   "place": "Woolwich Foot Tunnel, under the Thames, Woolwich, London",
+   "lat": 51.4972,
+   "lon": 0.0628,
+   "desc": "A blog account attributed to an anonymous contractor on the 2011-12 refurbishment of the Woolwich Foot Tunnel claims workers found time ran differently below the river: a full shift underground passed while it was still morning above, and a worker on a rope seemed to reach the far side almost instantly. The source, Portals of London, mixes psychogeography with ghost story, and commenters dispute it.",
+   "tags": [
+    "timeslip",
+    "portals of london",
+    "woolwich foot tunnel",
+    "thames"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 20.03 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2018/07/20.03-MU-Podcast/"
+    },
+    {
+     "name": "Portals of London — Under river, outside time: The Woolwich Foot Tunnel Anomaly",
+     "url": "https://portalsoflondon.com/2017/07/02/the-woolwich-anomaly/"
+    }
+   ],
+   "episode_id": "20.03-mu-podcast",
+   "excerpt": "We then take a look at the alleged time portals appearing all over London and uncover some of the extraordinary accounts of people who have been swept up in them.\nShow-notes links: Under river, outside time: The Woolwich Foot Tunnel Anomaly — https://portalsoflondon.com/2017/07/02/the-woolwich-anomaly/"
+  },
+  {
+   "title": "Hornsey Town Hall temporal disturbances",
+   "cat": "timeslip",
+   "date": "",
+   "place": "Hornsey Town Hall, The Broadway, Crouch End, London",
+   "lat": 51.5786,
+   "lon": -0.1238,
+   "desc": "A Portals of London account says that in the mid-1960s staff at Hornsey Town Hall, including clerk Janet Hispall, met time jumps between rooms and corridors and learned to compare the synchronised clocks. In the 'Day of the Double Documents' Janet reportedly delivered papers that another version of her had brought half an hour earlier. The account is anecdotal and from a psychogeography blog.",
+   "tags": [
+    "timeslip",
+    "portals of london",
+    "hornsey town hall",
+    "doppelganger"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 20.03 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2018/07/20.03-MU-Podcast/"
+    },
+    {
+     "name": "Portals of London — Shadows and clocks: Temporal Disturbances at Hornsey Town Hall",
+     "url": "https://portalsoflondon.com/2018/05/31/shadows-and-clocks-temporal-disturbances-at-hornsey-town-hall/"
+    }
+   ],
+   "episode_id": "20.03-mu-podcast",
+   "excerpt": "We then take a look at the alleged time portals appearing all over London and uncover some of the extraordinary accounts of people who have been swept up in them.\nShow-notes links: Shadows and clocks: Temporal Disturbances at Hornsey Town Hall — https://portalsoflondon.com/2018/05/31/shadows-and-clocks-temporal-disturbances-at-hornsey-town-hall/"
+  },
+  {
+   "title": "Crystal Palace 'Stardoor', Great Exhibition",
+   "cat": "timeslip",
+   "date": "1851",
+   "place": "Site of the Crystal Palace, Hyde Park, London (approx.)",
+   "lat": 51.503,
+   "lon": -0.169,
+   "desc": "A Portals of London story says that during the 1851 Great Exhibition William Canter's vacuum sugar-boiling apparatus produced dark vapour and opened a portal onto a starry night sky. A woman reportedly put her head through and was pulled back without her hat and shawl. Witnesses were said to have been quietly interviewed later. No independent record is cited, and the blog presents it as an interdimensional tale. Coordinates approximate (site of the Crystal Palace).",
+   "tags": [
+    "portal",
+    "portals of london",
+    "crystal palace",
+    "great exhibition"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 20.03 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2018/07/20.03-MU-Podcast/"
+    },
+    {
+     "name": "Portals of London — The Crystal Palace Stardoor",
+     "url": "https://portalsoflondon.com/2017/09/11/victoria-and-albert-and-the-stardoor-the-vacuum-sugar-event/"
+    }
+   ],
+   "episode_id": "20.03-mu-podcast",
+   "excerpt": "We then take a look at the alleged time portals appearing all over London and uncover some of the extraordinary accounts of people who have been swept up in them.\nShow-notes links: The Crystal Palace Stardoor — https://portalsoflondon.com/2017/09/11/victoria-and-albert-and-the-stardoor-the-vacuum-sugar-event/"
+  },
+  {
+   "title": "Rougham disappearing house ('Rougham Mirage')",
+   "cat": "timeslip",
+   "date": "",
+   "place": "Kingshall Street and Bradfield St George–Rougham Green road, Rougham, Suffolk (approx.)",
+   "lat": 52.23,
+   "lon": 0.769,
+   "desc": "Several witnesses over 150 years report seeing a large Georgian-style house near Rougham that is not there. These include Robert Palfrey (1860), a later carriage party between Bradfield St George and Rougham Green whose pony reared as the air turned cold, and a driver on Kingshall Street around 2002. No building records match, though a King's House was demolished in the early 1800s. Coordinates approximate.",
+   "tags": [
+    "timeslip",
+    "phantom house",
+    "rougham",
+    "suffolk",
+    "rougham mirage"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 20.04 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2019/07/20-04-mu-plus-podcast/"
+    },
+    {
+     "name": "Journal News (Nicola Miller, Bury Free Press) — Rougham's famous disappearing house",
+     "url": "https://journalnews.com.ph/columnist-nicola-miller-weighs-up-the-evidence-for-roughams-famous-disappearing-house"
+    }
+   ],
+   "episode_id": "20-04-mu-plus-podcast",
+   "excerpt": "We also dive into the world of strange time-slips and debate their role in this chaotic modern world.\nShow-notes links: The Rougham Mystery — https://independent.academia.edu/GroveC"
+  },
+  {
+   "title": "Luminous owls of Norfolk",
+   "cat": "lights",
+   "date": "1907",
+   "place": "Fields of north Norfolk and Lower Hellesdon near Norwich (approx.)",
+   "lat": 52.653,
+   "lon": 1.25,
+   "desc": "In winter 1907-08 moving lights in Norfolk fields were reported in The Times and the Eastern Daily Press, and some witnesses blamed luminous barn owls. On 5 February 1908 E. S. Cannell said he saw a glowing owl at Lower Hellesdon. Sightings ran to May 1908, and Charles Fort collected them in 'Lo!'. Coordinates approximate.",
+   "tags": [
+    "luminous owls",
+    "mystery lights",
+    "norfolk",
+    "charles fort"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 22.21 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2019/11/22.21-MU-Podcast/"
+    },
+    {
+     "name": "Charles Fort, Lo! ch. 10 (sacred-texts.com)",
+     "url": "https://sacred-texts.com/fort/lo/lo10.htm"
+    }
+   ],
+   "episode_id": "22.21-mu-podcast",
+   "excerpt": "Show-notes links: Weird Norfolk: The mysterious glow of a silent hunter of the Skies — https://www.edp24.co.uk/news/weird-norfolk-mysterious-luminescent-glowing-barn-owls-norfolk-1-5573955"
+  },
+  {
+   "title": "Black swine of the Hampstead sewers",
+   "cat": "cryptid",
+   "date": "1859",
+   "place": "Sewers beneath Hampstead, north London (approx.)",
+   "lat": 51.556,
+   "lon": -0.178,
+   "desc": "Victorian toshers told Henry Mayhew (1851) of a breed of feral black pigs living in the sewers under Hampstead, descended from a pregnant sow that got into the system. A Daily Telegraph editorial in 1859 spread the legend, and there is no evidence for the pigs. Coordinates approximate.",
+   "tags": [
+    "sewer pigs",
+    "black swine",
+    "urban legend",
+    "hampstead",
+    "london"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 20.22 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2019/11/20-22-mu-plus-podcast/"
+    },
+    {
+     "name": "Spooky Isles — Black Swine: Did Feral Pigs Live In London's Sewers?",
+     "url": "https://www.spookyisles.com/black-swine-feral-pigs-london-sewers/"
+    }
+   ],
+   "episode_id": "20-22-mu-plus-podcast",
+   "excerpt": "Show-notes links: The Mysterious Monster Black Swine of London’s Sewers — https://mysteriousuniverse.org/2019/11/the-mysterious-monster-black-swine-of-londons-sewers/"
+  },
+  {
+   "title": "Oliver's Castle crop circle video",
+   "cat": "lights",
+   "date": "1996/08/11",
+   "place": "Oliver's Castle hill fort, Roundway Down, near Devizes, Wiltshire (approx.)",
+   "lat": 51.3747,
+   "lon": -2.027,
+   "desc": "Video said to have been shot from Oliver's Castle on 11 August 1996 by a man calling himself John Weyleigh appears to show balls of light flying over a field while a crop formation appears in seconds. The cameraman disappeared, and in 1997 a John Wabe said he had faked the footage. Researchers such as Bert Janssen dispute parts of that confession. Coordinates approximate.",
+   "tags": [
+    "crop circle",
+    "balls of light",
+    "oliver's castle",
+    "wiltshire",
+    "hoax"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 22.24 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2019/12/22.24-MU-Podcast/"
+    },
+    {
+     "name": "Bert Janssen — An Angle to Oliver's Castle (cropcirclesandmore.com)",
+     "url": "https://www.cropcirclesandmore.com/thoughts/201105aoc.html"
+    }
+   ],
+   "episode_id": "22.24-mu-podcast",
+   "excerpt": "Show-notes links: An Angle to Oliver's Castle 1996 — https://www.cropcirclesandmore.com/thoughts/201105aoc.html · John Whaley (Wheyleigh/Wabe) and the Oliver's Castle — http://www.robertschoch.net/Crop%20Circle%20Video%20Oliver's%20Castle%20Fraud%20LWCMD%20CT.htm · Oliver's Castle Crop Circle - The Original Footage — https://www.youtube.com/watch?v=AcLcnrpxmUg · The Case of the Vanishing Cameraman — http://cropcircleconnector.com/Sorensen/articles/sorensen.html"
+  },
+  {
+   "title": "Avebury henge",
+   "cat": "other",
+   "date": "",
+   "place": "Avebury, Wiltshire",
+   "lat": 51.42861,
+   "lon": -1.85417,
+   "desc": "Avebury is a Neolithic henge in Wiltshire enclosing three stone circles, including the largest megalithic stone circle in the world. MU covered John Burke's theory that megalithic sites such as Avebury worked as ancient energy generators for agriculture.",
+   "tags": [
+    "megalith",
+    "stone circle",
+    "avebury",
+    "earth energies"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 20.25 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2019/12/20-25-mu-plus-podcast/"
+    },
+    {
+     "name": "Wikipedia — Avebury",
+     "url": "https://en.wikipedia.org/wiki/Avebury"
+    }
+   ],
+   "episode_id": "20-25-mu-plus-podcast",
+   "excerpt": "The globe is littered with awe inducing ancient megalithic sites yet we still have no idea what exactly they were used for. Using modern technologies, scientist John Burke set out to find a possible explanation.\nShow-notes links: Stone Ring of Avebury — https://sacredsites.com/europe/england/avebury.html"
+  },
+  {
+   "title": "Stonehenge",
+   "cat": "other",
+   "date": "",
+   "place": "Stonehenge, Salisbury Plain, Wiltshire",
+   "lat": 51.17889,
+   "lon": -1.82611,
+   "desc": "Stonehenge is a prehistoric stone monument on Salisbury Plain about 3 km west of Amesbury. MU discussed Lynne Kelly's 'memory code' theory, which treats it as a memory device, and John Burke's claims about the healing and energy properties of megalithic sites.",
+   "tags": [
+    "megalith",
+    "stonehenge",
+    "earth energies",
+    "memory code"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 20.25 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2019/12/20-25-mu-plus-podcast/"
+    },
+    {
+     "name": "Wikipedia — Stonehenge",
+     "url": "https://en.wikipedia.org/wiki/Stonehenge"
+    }
+   ],
+   "episode_id": "20-25-mu-plus-podcast",
+   "excerpt": "The globe is littered with awe inducing ancient megalithic sites yet we still have no idea what exactly they were used for. Using modern technologies, scientist John Burke set out to find a possible explanation.\nShow-notes links: Healing Energies of Stonehenge — https://www.ancient-origins.net/opinion-guest-authors/healing-energies-stonehenge-001263",
+   "extra_episodes": [
+    {
+     "episode_id": "18.19-mu-podcast",
+     "episode_url": "https://mysteriousuniverse.org/2017/11/18.19-MU-Podcast/",
+     "excerpt": "She has discovered that this ancient memory technique is the secret behind the great stone monuments like Stonehenge, which have for so long puzzled archaeologists.",
+     "source": {
+      "name": "Mysterious Universe — 18.19 – MU Podcast",
+      "url": "https://mysteriousuniverse.org/2017/11/18.19-MU-Podcast/"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Silbury Hill orange fireballs and 'little people'",
+   "cat": "encounter",
+   "date": "1994/07",
+   "place": "Silbury Hill, near Avebury, Wiltshire",
+   "lat": 51.4156,
+   "lon": -1.8575,
+   "desc": "In July 1994 three adults spending the night on Silbury Hill to watch for crop circles reported orange fireballs with pyramid-shaped structures beneath them. The woman described glowing figures 4-5 ft tall inside them as 'little people', and lights later moved along the road towards Marlborough and vanished into a hedge. The account was published by Andrew Collins in 'LightQuest'.",
+   "tags": [
+    "silbury hill",
+    "orange fireballs",
+    "humanoids",
+    "little people",
+    "andrew collins"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 18.20 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2017/11/18.20-MU-Podcast/"
+    },
+    {
+     "name": "Planet Today — The incredible 1994 UFO-humanoid case",
+     "url": "https://www.planet-today.com/2020/10/the-incredible-1994-ufo-humanoid-case.html"
+    }
+   ],
+   "episode_id": "18.20-mu-podcast",
+   "excerpt": "Show-notes links: Orange Fireballs and Little People in England—the Incredible 1994 UFO-Humanoid Case at Silbury Hill — http://www.apmagazine.info/index.php?option=com_content&view=article&id=385&Itemid=53"
+  },
+  {
+   "title": "Pollock twins reincarnation case",
+   "cat": "other",
+   "date": "1957/05/07",
+   "place": "Hexham, Northumberland",
+   "lat": 54.9719,
+   "lon": -2.1018,
+   "desc": "Joanna (11) and Jacqueline (6) Pollock were killed by a car in Hexham on 7 May 1957. Their twin sisters Gillian and Jennifer, born on 4 October 1958, were said to recognise the dead girls' toys and places in Hexham and to talk about the accident. Jennifer had a scar and a birthmark like Jacqueline's. Ian Stevenson rated the case highly, while Ian Wilson noted that most of the evidence came from the parents.",
+   "tags": [
+    "reincarnation",
+    "twins",
+    "hexham",
+    "ian stevenson"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 21.12 – MU Plus+ Podcast – Telesomatic Twins",
+     "url": "https://mysteriousuniverse.org/2020/03/21-12-mu-plus-podcast-telesomatic-twins/"
+    },
+    {
+     "name": "SPR Psi Encyclopedia — Pollock Twins",
+     "url": "https://psi-encyclopedia.spr.ac.uk/articles/pollock-twins"
+    }
+   ],
+   "episode_id": "21-12-mu-plus-podcast-telesomatic-twins",
+   "excerpt": "On this episode we take a look at some of the more extreme examples of twin telepathy, including incidents of physical manifestations of trauma.\nShow-notes links: Mysterious Case of the Pollock Twins — https://mysteriousuniverse.org/2018/03/death-and-rebirth-the-mysterious-case-of-the-pollock-twins/"
+  },
+  {
+   "title": "The Silent Twins (June and Jennifer Gibbons)",
+   "cat": "other",
+   "date": "",
+   "place": "Haverfordwest, Pembrokeshire",
+   "lat": 51.8015,
+   "lon": -4.969,
+   "desc": "June and Jennifer Gibbons, who moved to Haverfordwest in 1974, spoke almost only to each other in a hard-to-follow idiolect. They spent eleven years in Broadmoor after arson and theft in 1981. Jennifer died suddenly of acute myocarditis in March 1993 on the day they were moved to the Caswell Clinic, and no drugs or poison were found. Journalist Marjorie Wallace reported that the twins had agreed one must die so the other could live a normal life.",
+   "tags": [
+    "twins",
+    "twin telepathy",
+    "haverfordwest",
+    "broadmoor"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 21.12 – MU Plus+ Podcast – Telesomatic Twins",
+     "url": "https://mysteriousuniverse.org/2020/03/21-12-mu-plus-podcast-telesomatic-twins/"
+    },
+    {
+     "name": "Wikipedia — June and Jennifer Gibbons",
+     "url": "https://en.wikipedia.org/wiki/June_and_Jennifer_Gibbons"
+    }
+   ],
+   "episode_id": "21-12-mu-plus-podcast-telesomatic-twins",
+   "excerpt": "On this episode we take a look at some of the more extreme examples of twin telepathy, including incidents of physical manifestations of trauma.\nShow-notes links: Creepy Case of the Silent Twins — https://mysteriousuniverse.org/2018/04/the-creepy-case-of-the-silent-twins/"
+  },
+  {
+   "title": "Pilots' fast-moving lights off Co. Kerry",
+   "cat": "craft",
+   "date": "2018/11/09",
+   "place": "Airspace off the south-west coast of Ireland, Co. Kerry (approx., offshore)",
+   "lat": 52.0,
+   "lon": -10.5,
+   "desc": "Early on 9 November 2018 a British Airways 787 pilot over Kerry reported a very bright light moving at high speed, and Virgin and Norwegian crews reported multiple bright objects. The Irish Aviation Authority investigated. Coordinates are approximate (offshore airspace).",
+   "tags": [
+    "pilot sighting",
+    "irish aviation authority",
+    "kerry",
+    "shannon"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 20.20 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2018/11/20.20-MU-Podcast/"
+    },
+    {
+     "name": "Irish Post — Irish Aviation Authority investigating sighting of 'UFO' off the coast of Ireland",
+     "url": "https://www.irishpost.com/news/ufo-sighting-off-coast-ireland-161821"
+    }
+   ],
+   "episode_id": "20.20-mu-podcast",
+   "excerpt": "Show-notes links: 'Moving so fast': UFO sighting under investigation by Irish Aviation Authority — https://www.thejournal.ie/moving-so-fast-ufo-sighting-under-investigation-by-irish-airport-authority-4334894-Nov2018/"
+  },
+  {
+   "title": "Michael Faherty 'spontaneous human combustion' death",
+   "cat": "other",
+   "date": "2010/12",
+   "place": "Galway, Co. Galway (home; West Galway coroner's district — approx.)",
+   "lat": 53.274,
+   "lon": -9.049,
+   "desc": "Michael Faherty, 76, was found burned to death at his home in Galway in December 2010. In 2011 West Galway coroner Dr Ciaran McLoughlin recorded it as spontaneous human combustion, 'for which there is no adequate explanation', reportedly the first such verdict in Ireland. Coordinates approximate (city-level).",
+   "tags": [
+    "spontaneous human combustion",
+    "galway",
+    "inquest"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 21.04 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2019/02/21.04-MU-Podcast/"
+    },
+    {
+     "name": "ABC News — Irishman's Death Ruled Spontaneous Combustion",
+     "url": "https://abcnews.com/blogs/health/2011/09/23/irishmans-death-ruled-spontaneous-combustion"
+    }
+   ],
+   "episode_id": "21.04-mu-podcast",
+   "excerpt": "Then we have a real treat for our Plus+ subscribers as we discuss some obscure and highly strange spontaneous human combustion stories and speculate on the possibility of \"psychic suicide\" being the cause.\nShow-notes links: Irish pensioner 'died of spontaneous human combustion' — https://www.telegraph.co.uk/news/worldnews/europe/ireland/8783929/Irish-pensioner-died-of-spontaneous-human-combustion.html"
+  },
+  {
+   "title": "Spring-heeled Jack scare, London 1837-38",
+   "cat": "encounter",
+   "date": "1838/02",
+   "place": "Bearbinder Lane, Bow, east London (Jane Alsop attack; approx.) — scare across London's outskirts",
+   "lat": 51.5325,
+   "lon": -0.03,
+   "desc": "From winter 1837-38 villages around London (Barnes, East Sheen, Isleworth, Peckham, Hammersmith, Hackney, Lewisham) reported a leaping, disguised figure. An anonymous letter about it was read at the Mansion House in January 1838. In February 1838 Jane Alsop, 18, of Bearbinder Lane, Bow, said a man posing as a policeman breathed flames at her and clawed her clothes. Coordinates approximate.",
+   "tags": [
+    "spring-heeled jack",
+    "london",
+    "victorian scare",
+    "jane alsop"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 21.12 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2019/03/21.12-MU-Podcast/"
+    },
+    {
+     "name": "Dr David Clarke — Spring-heeled Jack: The Reign of Terror",
+     "url": "https://drdavidclarke.co.uk/urban-legendary/spring-heeled-jack/the-reign-of-terror/"
+    }
+   ],
+   "episode_id": "21.12-mu-podcast",
+   "excerpt": "Show-notes links: Spring Heeled Jack — https://www.damninteresting.com/spring-heeled-jack/ · Spring-heeled Jack To Victorian Bugaboo From Suburban Ghost — https://www.academia.edu/251734/Spring-heeled_Jack_To_Victorian_Bugaboo_from_Suburban_Ghost · The Reign of Terror — https://drdavidclarke.co.uk/urban-legendary/spring-heeled-jack/the-reign-of-terror/"
+  },
+  {
+   "title": "Dr Moore carried off by fairies",
+   "cat": "encounter",
+   "date": "1678",
+   "place": "Inn near Dromgreagh, by Baltinglass, Co. Wicklow (approx.)",
+   "lat": 52.939,
+   "lon": -6.709,
+   "desc": "According to a 1678 London pamphlet, a schoolmaster called Dr Moore was lifted into the air and vanished from an inn near Baltinglass. He was said to have been taken by fairies to dance all night at a Danes fort and returned at dawn. His companion Richard Uniack reportedly swore a statement on 18 November 1678. Coordinates approximate.",
+   "tags": [
+    "fairy abduction",
+    "wicklow",
+    "baltinglass",
+    "17th century"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 17.24 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2018/06/17-24-mu-plus-podcast/"
+    },
+    {
+     "name": "Anomaly Info — 1678: Dr. Moore and the invisible fairies",
+     "url": "http://anomalyinfo.com/Stories/1678-dr-moore-and-invisible-fairies"
+    }
+   ],
+   "episode_id": "17-24-mu-plus-podcast",
+   "excerpt": "We also separate fact from fiction by examining some of the most bizarre events in history before learning about the fairy abduction of the mysterious Dr. Moore.\nShow-notes links: 1678: Dr. Moore and the Fairies — http://anomalyinfo.com/Stories/1678-dr-moore-and-invisible-fairies"
+  },
+  {
+   "title": "Witches of Warboys",
+   "cat": "ritual",
+   "date": "1593",
+   "place": "Warboys, Huntingdonshire (Cambridgeshire)",
+   "lat": 52.403,
+   "lon": -0.08,
+   "desc": "From November 1589 the daughters and servants of squire Robert Throckmorton of Warboys had fits and accused 76-year-old Alice Samuel of bewitching them. In 1593 Alice, her husband and her daughter were convicted of killing Lady Cromwell by witchcraft and hanged at Huntingdon. The case is thought to have influenced the Witchcraft Act of 1604.",
+   "tags": [
+    "witch trial",
+    "warboys",
+    "throckmorton",
+    "huntingdon",
+    "possession"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 17.24 – MU Plus+ Podcast",
+     "url": "https://mysteriousuniverse.org/2018/06/17-24-mu-plus-podcast/"
+    },
+    {
+     "name": "Wikipedia — Witches of Warboys",
+     "url": "https://en.wikipedia.org/wiki/Witches_of_Warboys"
+    }
+   ],
+   "episode_id": "17-24-mu-plus-podcast",
+   "excerpt": "Show-notes links: The Witches of Warboys — https://iash.uq.edu.au/witches-warboys"
+  },
+  {
+   "title": "Joanna Southcott's box and the Panacea Society",
+   "cat": "ritual",
+   "date": "1919",
+   "place": "12 Albany Road, Bedford (Panacea Society; approx.)",
+   "lat": 52.1385,
+   "lon": -0.4555,
+   "desc": "Mabel Barltrop ('Octavia') founded the Panacea Society at 12 Albany Road, Bedford, in 1919, believing herself the Shiloh of Joanna Southcott's prophecies. The society campaigned for the bishops to open Southcott's sealed box of prophecies, and members believed Bedford was the original site of the Garden of Eden. Coordinates approximate.",
+   "tags": [
+    "joanna southcott",
+    "panacea society",
+    "octavia",
+    "prophecy",
+    "bedford"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 18.16 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2017/10/18-16-mu-podcast/"
+    },
+    {
+     "name": "Wikipedia — Panacea Society",
+     "url": "https://en.wikipedia.org/wiki/Panacea_Society"
+    }
+   ],
+   "episode_id": "18-16-mu-podcast",
+   "excerpt": "Show-notes links: Whatever became of Joanna Southcott's Box? — https://www.theguardian.com/notesandqueries/query/0,5753,-4563,00.html · Strange Messiah: The Prophecies of Joanna Southcott — https://owlcation.com/humanities/Strange-Messiah-The-Prophecies-of-Joanna-Southcott · Octavia, Daughter of God: The Story of a Female Messiah and Her Followers. — https://academic.oup.com/ahr/article/118/1/260/45282/Jane-Shaw-Octavia-Daughter-of-God-The-Story-of-a · Octavia, Daughter of God: The Story of a Female Messiah and Her Followers — https://www.amazon.com/gp/product/B005OQ6OGO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B005OQ6OGO&linkId=26002392ac2838531b81b0a13473e2b0",
+   "extra_episodes": [
+    {
+     "episode_id": "18.22-mu-podcast",
+     "episode_url": "https://mysteriousuniverse.org/2017/12/18.22-MU-Podcast/",
+     "excerpt": "Show-notes links: Octavia, Daughter of God: The Story of a Female Messiah and Her Followers — https://www.theguardian.com/books/2011/jun/03/octavia-daughter-of-god-review",
+     "source": {
+      "name": "Mysterious Universe — 18.22 – MU Podcast",
+      "url": "https://mysteriousuniverse.org/2017/12/18.22-MU-Podcast/"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Man-Monkey of the Shropshire Union Canal",
+   "cat": "cryptid",
+   "date": "1879/01",
+   "place": "Shropshire Union Canal near Norbury / Bridge 39, Staffordshire (approx.)",
+   "lat": 52.816,
+   "lon": -2.326,
+   "desc": "In January 1879, around 10 pm, a labourer carting luggage from Ranton to Newport said a black, ape-like creature with white eyes sprang onto his horse at a canal bridge just outside Norbury. He was so frightened that he stayed in bed for days. The 'Man-Monkey' is said to haunt the double-arched Bridge 39. Coordinates approximate.",
+   "tags": [
+    "man-monkey",
+    "british bigfoot",
+    "shropshire union canal",
+    "staffordshire"
+   ],
+   "sources": [
+    {
+     "name": "Mysterious Universe — 21.18 – MU Podcast",
+     "url": "https://mysteriousuniverse.org/2019/05/21.18-MU-Podcast/"
+    },
+    {
+     "name": "Canal & River Trust — Ghostly guide to the Shropshire Union Canal",
+     "url": "https://canalrivertrust.org.uk/news-and-views/features/ghostly-guide-to-the-shropshire-union-canal"
+    }
+   ],
+   "episode_id": "21.18-mu-podcast",
+   "excerpt": "On this episode of Mysterious Universe we discuss some of the most unusual cases of poltergeist home invasions, UFO crashes and the arrival of strange beings in the English countryside.\nShow-notes links: Tales of the Terrifying Man-Monkey — https://mysteriousuniverse.org/2019/05/tales-of-the-terrifying-man-monkey/ · The Shropshire Union Canal man-monkey — https://karlshuker.blogspot.com/2010/09/devil-of-mystery-from-smethwick.html · Monkey Business on the Union Canal — https://hypnogoria.blogspot.com/2016/02/folklore-on-friday-monkey-business-on.html"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "uk-phantom-aircraft",
+   "episode_id": "15-11-mu-plus-podcast",
+   "excerpt": "Show-notes links: The mysterious UK ‘ghost plane’ that’s been spotted for decades — http://nypost.com/2017/02/14/the-mysterious-uk-ghost-plane-thats-been-spotted-for-decades/ · The Spectral WWII Bombers of the United Kingdom — https://mysteriousuniverse.org/2015/07/the-spectral-wwii-bombers-of-the-united-kingdom/ · Phantom planes and your encounters — http://news.bbc.co.uk/local/northeastwales/hi/people_and_places/newsid_8454000/8454006.stm",
+   "note": "The UK ghost plane articles (NY Post, BBC NE Wales) could not be opened; probably Peak District / North-East Wales reports."
+  },
+  {
+   "theme": "phantom-social-workers-uk",
+   "episode_id": "19.06-mu-podcast",
+   "excerpt": "After discussing the strange phenomenon of \"Phantom Social Workers\" in the UK it seems the pattern may have emerged here in Australia this week.\nShow-notes links: The Mystery of the U.K.’s “Phantom” Social Workers — https://mysteriousuniverse.org/2017/03/the-mystery-of-the-u-k-s-phantom-social-workers/"
+  },
+  {
+   "theme": "phantom-social-workers-uk",
+   "episode_id": "19.04-mu-podcast",
+   "excerpt": "We then ambitiously try and connect 'The Secret Fish Man from Guangdong' to MIB cases in the UK and the Phantom Social Workers that terrified a nation.\nShow-notes links: The Mystery of the U.K.’s “Phantom” Social Workers — https://mysteriousuniverse.org/2017/03/the-mystery-of-the-u-k-s-phantom-social-workers/ · Huge sums wasted on bogus social worker hunt — https://www.independent.co.uk/news/huge-sums-wasted-on-bogus-social-worker-hunt-1596552.html"
+  },
+  {
+   "theme": "british-irish-fairies",
+   "episode_id": "16-22-mu-plus-podcast",
+   "excerpt": "Show-notes links: Magical Folk: British and Irish Fairies - 500 AD to the Present — https://www.amazon.com/gp/product/1783341017/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1783341017&linkId=506d386554b5faf357ea0e511ad28396"
+  },
+  {
+   "theme": "british-irish-fairies",
+   "episode_id": "17-05-mu-plus-podcast",
+   "excerpt": "Show-notes links: Fairy Encounters — https://subscribe.forteantimes.com/blog/the-fairy-investigation-society · Fairyist: The Fairy Investigation Society Survey — http://www.fairyist.com/survey/ · The Fairy Census, 2014-2017 — http://www.fairyist.comhttps://mustorage.blob.core.windows.net/images/2014/10/The-Fairy-Census-2014-2017-1.pdf"
+  },
+  {
+   "theme": "british-irish-fairies",
+   "episode_id": "17-09-mu-plus-podcast",
+   "excerpt": "Show-notes links: On the trail of Captain Quentin C. A. Craufurd (and his fairies) — http://www.strangehistory.net/2012/06/24/on-the-trail-of-captain-quentin-c-a-craufurd-and-his-fairies/",
+   "note": "Captain Quentin Craufurd, founder of the Fairy Investigation Society; no fixed location found."
+  },
+  {
+   "theme": "british-irish-fairies",
+   "episode_id": "15-13-mu-plus-podcast",
+   "excerpt": "Show-notes links: The Truth About Leprechauns — https://www.amazon.com/gp/product/1847179142/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1847179142&linkId=58678402c9a39c0d991e53fa9be2f065"
+  },
+  {
+   "theme": "british-irish-fairies",
+   "episode_id": "17-24-mu-plus-podcast",
+   "excerpt": "Show-notes links: Away with the fairies — http://www.assap.ac.uk/newsite/articles/Fairies.html · Ireland’s most sinister superstition: The Changeling — http://robscholtemuseum.nlhttps://mustorage.blob.core.windows.net/images/2016/03/Abducted-by-the-fairies.pdf"
+  },
+  {
+   "theme": "british-bigfoot",
+   "episode_id": "21.18-mu-podcast",
+   "excerpt": "Show-notes links: Man Monkey: In Search of the British Bigfoot — https://www.amazon.com/gp/product/B00S0GDM4M/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=B00S0GDM4M&linkId=3e3bb245adfec6cc1f9b64b04c1065b0"
+  },
+  {
+   "theme": "british-bigfoot",
+   "episode_id": "19-19-mu-plus-podcast",
+   "excerpt": "Show-notes links: In search of Bigfoot — http://www.bigfootencounters.com/articles/british_bigfoot.htm"
+  },
+  {
+   "theme": "british-bigfoot",
+   "episode_id": "17-20-mu-plus-podcast",
+   "excerpt": "We then discuss one woman's terrifying experiences while vacationing on an isolated UFO infested island before delving into the 1973 California humanoid invasion and the Green Faced Monkey Men of the UK.",
+   "note": "'Green Faced Monkey Men of the UK' could not be pinned to a place (MU article paywalled)."
+  },
+  {
+   "theme": "british-big-cats",
+   "episode_id": "22.24-mu-podcast",
+   "excerpt": "Show-notes links: “Alien Big Cats” and the Supernatural Places Where They Hang Out — https://mysteriousuniverse.org/2019/12/alien-big-cats-and-the-supernatural-places-where-they-hang-out/",
+   "note": "MU article (Redfern) on 'alien big cats'; UK focus inferred from the British term, not verified (paywall)."
+  },
+  {
+   "theme": "uk-pterodactyls",
+   "episode_id": "16-05-mu-plus-podcast",
+   "excerpt": "Show-notes links: Paranormal Pterodactyls In The U.K.? — https://mysteriousuniverse.org/2017/07/paranormal-pterodactyls-in-the-u-k/ · More About Those Mysterious Pterodactyls — https://mysteriousuniverse.org/2017/07/more-about-those-mysterious-pterodactyls/ · Are Pterodactyl Sightings Real? — https://www.thoughtco.com/did-pterosaurs-survive-extinction-2594566 · UFO Brigantia Newsletters (UK 1980s-1990s) — http://www.abovetopsecret.com/forum/thread1014877/pg1 · Supernatural Pennines — https://www.amazon.com/gp/product/0709071442/ref=as_li_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0709071442&linkId=e4037d80e4f75b89633831e80050b3a1"
+  },
+  {
+   "theme": "uk-pterodactyls",
+   "episode_id": "16-06-mu-plus-podcast",
+   "excerpt": "Show-notes links: Paranormal Pterodactyls In The U.K.? — https://mysteriousuniverse.org/2017/07/paranormal-pterodactyls-in-the-u-k/ · More About Those Mysterious Pterodactyls — https://mysteriousuniverse.org/2017/07/more-about-those-mysterious-pterodactyls/ · The Pterodactyl Trilogy At Its End — https://mysteriousuniverse.org/2017/07/the-pterodactyl-trilogy-at-its-end/ · UFO Brigantia newsletters (UK 1980s-1990s) - PDF archive now online — http://www.abovetopsecret.com/forum/thread1014877/pg1"
+  },
+  {
+   "theme": "phantom-helicopters-uk",
+   "episode_id": "22.23-mu-podcast",
+   "excerpt": "Show-notes links: Phantom Helicopters of the UK — https://mysteriousuniverse.org/2013/04/phantom-helicopters-of-the-uk/"
+  },
+  {
+   "theme": "london-underground-ghosts",
+   "episode_id": "17-04-mu-plus-podcast",
+   "excerpt": "Show-notes links: The Horror, The Horror! London’s Most Haunted Underground Stations — https://secretldn.com/haunted-underground-stations/ · Tales of London’s Mysterious Underworld — https://mysteriousuniverse.org/2018/01/tales-of-londons-mysterious-underworld/"
+  },
+  {
+   "theme": "london-underground-ghosts",
+   "episode_id": "20.03-mu-podcast",
+   "excerpt": "Show-notes links: Strange Things Below London? — https://mysteriousuniverse.org/2018/07/strange-things-below-london/#comment-3990261573 · Secrets of Underground London — https://www.youtube.com/watch?v=B8iLrVKQ8VA · Ghosts on the Underground — https://www.youtube.com/watch?v=IkvwvlpUqjY"
+  },
+  {
+   "theme": "phantom-black-dogs",
+   "episode_id": "20-18-mu-plus-podcast",
+   "excerpt": "Usually perceived to be an omen of death and bad fortune, phantom black hounds have been encountered by countless people all over the world going back centuries.\nShow-notes links: Devil Dogs: The Mysterious Black Dogs of England — https://modernfarmer.com/2014/06/black-shuck/ · Phantom black dogs warn of Death — https://www.stokesentinel.co.uk/news/history/phantom-black-dogs-warn-death-572669 · Explore Phantom Black Dogs — https://www.amazon.com/gp/product/1872883788/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=1872883788&linkId=535ae94c2a19f2beb830123682cb1bf4"
+  },
+  {
+   "theme": "british-road-ghosts",
+   "episode_id": "17-18-mu-plus-podcast",
+   "excerpt": "Show-notes links: Paranormal Encounters on Britain's Roads: Phantom Figures, UFOs and Missing Time — https://www.amazon.com/gp/product/B07BX3GTYD/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=B07BX3GTYD&linkId=c8837d962cea6e6fa868f1a3b761e1d8"
+  },
+  {
+   "theme": "british-road-ghosts",
+   "episode_id": "19.10-mu-podcast",
+   "excerpt": "Show-notes links: Road Ghosts — http://www.real-british-ghosts.com/road-ghosts.html"
+  },
+  {
+   "theme": "northern-ireland-animal-mutilations",
+   "episode_id": "18-03-mu-plus-podcast",
+   "excerpt": "We return to the bloody mystery of animal mutilations with new research on an ongoing case from Northern Island that has left a body count of over 500 livestock. Things get darker from there as we follow the mystery to the late UK UFO researcher Tony Dodd and discover the cases so horrifying that he refused to publish them.\nShow-notes links: CIRCLE OF DECEIT: A TERRIFYING ALIEN AGENDA IN IRELAND AND BEYOND — https://www.amazon.com/gp/product/1980221545/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=1980221545&linkId=3fec3ecf46256f928bab52f27c6fa655 · Alien Investigator — https://www.amazon.com/gp/product/0747261415/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=0747261415&linkId=6dcf332af4a602a250b22ac37a458fec"
+  },
+  {
+   "theme": "northern-ireland-animal-mutilations",
+   "episode_id": "18.04-mu-plus-podcast",
+   "excerpt": "Show-notes links: CIRCLE OF DECEIT: A TERRIFYING ALIEN AGENDA IN IRELAND AND BEYOND — http://CIRCLE OF DECEIT: A TERRIFYING ALIEN AGENDA IN IRELAND AND BEYOND"
+  },
+  {
+   "theme": "northern-ireland-animal-mutilations",
+   "episode_id": "20-09-mu-plus-podcast",
+   "excerpt": "Show-notes links: CIRCLE OF DECEIT: A TERRIFYING ALIEN AGENDA IN IRELAND AND BEYOND — https://www.amazon.com/gp/product/B07DWBFM6T/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=B07DWBFM6T&linkId=8a4ab0383d735e28114121d9a2aafa48"
+  },
+  {
+   "theme": "irish-exorcisms-dark-sacrament",
+   "episode_id": "18-17-mu-plus-podcast",
+   "excerpt": "On this disturbing episode we follow the work of Exorcist Canon Lendrum who attempts to help a woman who is seemingly being taunted by her dead evil grandmother.\nShow-notes links: The Dark Sacrament: True Stories of Modern-Day Demon Possession and Exorcism — https://www.amazon.com/gp/product/B00IGYNMNE/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=B00IGYNMNE&linkId=e35077daeef0419e959e54c0c31cf295 · Irish Priest Calls For Backup: Too Many Exorcisms — https://www.dailywire.com/news/26348/irish-priest-calls-backup-too-many-exorcisms-paul-bois"
+  },
+  {
+   "theme": "irish-exorcisms-dark-sacrament",
+   "episode_id": "20.17-mu-podcast",
+   "excerpt": "On this episode we learn about the story of a woman who so desperately wanted to fix her relationship with her dead mother that she invited a mysterious magician and dark forces into her life.\nShow-notes links: The Dark Sacrament: True Stories of Modern-Day Demon Possession and Exorcism — https://www.amazon.com/gp/product/B000WPXTJW/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=B000WPXTJW&linkId=24bab7e3f5fde65e7ddc6e8a08420d0e"
+  },
+  {
+   "theme": "glastonbury-sacred-geometry",
+   "episode_id": "18-14-mu-plus-podcast",
+   "excerpt": "On this episode we attempt to uncover the secret code of the universe by taking a look the sacred geometry of Glastonbury and the dimensions of Paradise.\nShow-notes links: The Dimensions of Paradise: Sacred Geometry, Ancient Science, and the Heavenly Order on Earth — https://www.amazon.com/gp/product/B01K3L5KI2/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=B01K3L5KI2&linkId=0d5fbb8ae9d4d65a4149281030107de3"
+  },
+  {
+   "theme": "brighton-occult-underground",
+   "episode_id": "18-14-mu-podcast",
+   "excerpt": "This week we review David Bramwell's marvellously strange string of synchronicities from his latest book ' The Haunted Moustache '.\nShow-notes links: The Haunted Moustache — https://www.amazon.com/gp/product/095613033X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=095613033X&linkId=7a7d968c6aa3c57519d30f35529037d6"
+  },
+  {
+   "theme": "suffolk-mystery-lights",
+   "episode_id": "22.21-mu-podcast",
+   "excerpt": "Show-notes links: The Mystery Lights of Suffolk — https://mattsalusbury.blogspot.com/2017/12/the-mystery-lights-of-suffolk.html",
+   "note": "Linked blog lists Westleton, Syleham, Orford Ness, Dunwich, Sizewell 1975, Felixstowe 1965, Rendlesham etc.; MU's extension topic is luminous owls, so no single case claimed."
+  },
+  {
+   "theme": "tom-slemen-liverpool",
+   "episode_id": "17-09-mu-podcast",
+   "excerpt": "Show-notes links: Tales of the Weird 3 — https://www.amazon.com/gp/product/1539003698/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1539003698&linkId=9fd0a022c8648ae8e3a0b6e1235cd954",
+   "note": "Time-slip segment sourced to Tom Slemen's 'Tales of the Weird 3' (Liverpool author). Which stories were read is unconfirmed, and the New Orleans part is not UK."
+  },
+  {
+   "theme": "elliott-odonnell",
+   "episode_id": "18-11-mu-podcast",
+   "excerpt": "Show-notes links: “Haunted by a Phantom Ape” — https://mysteriousuniverse.org/2017/09/haunted-by-a-phantom-ape/ · Dangerous Ghosts — https://archive.org/details/DangerousGhosts · Elliot O’Donnell 1872-1965: the first great ghosthunter? — https://jerome23.wordpress.com/2009/09/19/elliot-odonnell-1872-1965-the-first-great-ghosthunter/ · Twenty Years' Experience as a Ghost Hunter — https://archive.org/details/twenty_years_ghost_hunter_ms_1602_librivox/ghosthunter_17_odonnell_128kb.mp3"
+  },
+  {
+   "theme": "elliott-odonnell",
+   "episode_id": "16-12-mu-plus-podcast",
+   "excerpt": "Show-notes links: The Screaming Skulls & Other Ghosts — https://archive.org/details/TheScreamingSkullsOtherGhosts · Dangerous Ghosts — https://archive.org/details/DangerousGhosts"
+  },
+  {
+   "theme": "elliott-odonnell",
+   "episode_id": "20-12-mu-plus-podcast",
+   "excerpt": "Show-notes links: Elliott O'Donnell — https://www.amazon.com/Elliott-ODonnell/e/B001KHH79E/ref=dp_byline_cont_ebooks_1 · O'Donnell, Elliott, 1872-1965 — https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=O%27Donnell%2c%20Elliott%2c%201872-1965 · Animal Ghosts Or, Animal Hauntings and the Hereafter — https://www.amazon.com/gp/product/B0082SV2EA/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=B0082SV2EA&linkId=755094c34d42edcae3bcbef9546785fc"
+  },
+  {
+   "theme": "elliott-odonnell",
+   "episode_id": "22.11-mu-podcast",
+   "excerpt": "Show-notes links: Animal Ghosts Or, Animal Hauntings and the Hereafter — https://www.amazon.com/gp/product/153077957X/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=153077957X&linkId=330a570f91886a22f0eea3e6c5328c6f"
+  },
+  {
+   "theme": "order-of-the-peacock-angel",
+   "episode_id": "15-15-mu-plus-podcast",
+   "excerpt": "We return refreshed from a long weekend to investigate strange secret societies that populated London pubs with Peacock worship, fiction authors that predicted future events, and how to avoid getting drugged in Tibet.\nShow-notes links: Order of the Peacock Angel — https://en.wikipedia.org/wiki/Order_of_the_Peacock_Angel · Golden Understanding — https://www.amazon.com/gp/product/1853980110/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=mysteruniver-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1853980110&linkId=6c7b350e9c6953d92d8aabd021e2ca90"
+  },
+  {
+   "theme": "cursed-britain",
+   "episode_id": "20-22-mu-plus-podcast",
+   "excerpt": "Show-notes links: Cursed Britain: A History of Witchcraft and Black Magic in Modern Times — https://www.amazon.com/gp/product/0300221401/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=0300221401&linkId=a629ba0906b13eeacf02632c4ae4b881"
+  },
+  {
+   "theme": "british-timeslips-mask-of-time",
+   "episode_id": "22.04-mu-podcast",
+   "excerpt": "For our Plus+ members we continue the discussion and take a look at some odd \"time-overlay\" experiences, the Akashic records, and stone tape theory.\nShow-notes links: Mask of Time: Mystery Factor in Timeslips, Precognition and Hindsight — https://www.amazon.com/gp/product/0354042718/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=0354042718&linkId=d27245725350f650413ec9ff2276e296"
+  },
+  {
+   "theme": "british-timeslips-mask-of-time",
+   "episode_id": "20-05-mu-plus-podcast",
+   "excerpt": "Show-notes links: Mask of Time: Mystery Factor in Timeslips, Precognition and Hindsight — https://www.amazon.com/gp/product/0354042718/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=0354042718&linkId=d27245725350f650413ec9ff2276e296"
+  },
+  {
+   "theme": "britains-paranormal-forests",
+   "episode_id": "20-15-mu-plus-podcast",
+   "excerpt": "Join us on this episode as we discuss strange encounters with smoke monsters and shadow beings before we jump into an electromagnetic weapons cover up in the UK.\nShow-notes links: Britain's Paranormal Forests: Encounters in the Woods — https://www.amazon.com/gp/product/B07YQ9DNFH/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=B07YQ9DNFH&linkId=b0e337cfb0d1d4fdcdc5148979bc0d7a"
+  },
+  {
+   "theme": "isle-of-man-wwii-alien-gene",
+   "episode_id": "21-17-mu-plus-podcast-sins-of-the-fathers",
+   "excerpt": "We discuss the experiences of four such abductees whose fathers were all involved in some strange event during the second world war on the Isle of Man.\nShow-notes links: The History of Isle of Man — https://www.historic-uk.com/HistoryMagazine/DestinationsUK/Isle-of-Man/ · The Wrekin walk — https://www.discoveringbritain.org/activities/west-midlands/walks/wrekin.html · Origin of The Wrekin — http://www.mysteriousbritain.co.uk/folklore/the-origin-of-the-wrekin/ · The Alien Gene — https://independentnetuforesearchers.com.au/the-alien-gene/ · The Alien Gene: Interactions between Humanity and Visitors to planet Earth — https://www.amazon.com/gp/product/0958704538/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=0958704538&linkId=cd6bbf22e5c98988209bed8e02500dc0"
+  },
+  {
+   "theme": "uk-crop-circles",
+   "episode_id": "21.18-mu-podcast",
+   "excerpt": "Then in our Plus+ extension we learn about the link between crop circles, exploding birds, microwaved animals and terrible medical conditions.\nShow-notes links: The Energies of Crop Circles: The Science and Power of a Mysterious Intelligence — https://www.amazon.com/gp/product/B07JZH2684/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=mysteruniver-20&creative=9325&linkCode=as2&creativeASIN=B07JZH2684&linkId=c34846a96a540a070a1238c1e4f63800 · The Energies of Crop Circles - The Science and Power of a Mysterious Intelligence Official Website — https://cropcircles.lucypringle.co.uk/category/lucy-pringle-letters-crop-circle-observations-and-photographs/"
+  },
+  {
+   "theme": "loch-ness",
+   "episode_id": "22.25-mu-podcast",
+   "excerpt": "Show-notes links: Ted Holiday's Final Days — https://lochnessmystery.blogspot.com/2018/05/ted-holidays-final-days.html"
+  },
+  {
+   "theme": "selkies",
+   "episode_id": "19-19-mu-plus-podcast",
+   "excerpt": "Show-notes links: The Selkie — http://www.orkneyjar.com/folklore/selkiefolk/"
+  }
+ ],
+ "notes": "Coverage notes (part 2: eps_part2.jsonl, 327 rows, MU seasons 14-23, Dec 2016 - Apr 2020).\n- Pairs already in current_mu_links.json were not repeated: 19.05 Welsh Triangle cases, 17.05 Dodleston, 17.10 Martin Tower bear, 18.10 Solway spaceman, 22.18 Black Monk, 21.12 Everton Spring-heeled Jack, 21.18 Cannock Chase, plus loch-ness theme links (16.09, 17.01 Plus, 18.22, 21.08 Plus, 23.07).\n- new_cases with more than one episode carry an 'extra_episodes' array (episode_id, url, excerpt). Each extra should become an extra covered_in link once the case is created.\n- Many MU articles cited in the notes (mysteriousuniverse.org/2015-2019) are paywalled, and BBC / derbytelegraph / nypost / edp24 pages were blocked, so several items stay themes or notes:\n  * 15.22 Plus 'YORKSHIRE ALIEN ABDUCTION' (BBC Inside Out Yorks & Lincs series 1) could not be opened. It may be Alan Godfrey / Todmorden but is unconfirmed, so no link was made.\n  * 16.09 Plus 'A Ghostly Airman At Loch Ness?' (phantom bomber): the Wellington R-Robert ditched in Loch Ness on 31 Dec 1940, but no ghost account could be verified. Already linked as loch-ness theme.\n  * 18.11 'Haunted by a Phantom Ape' (MU 2017/09) could not be placed (paywall). Filed under the elliott-odonnell theme only.\n  * 16.07 Plus mentions 'interdimensional volcano areas in the UK' but no UK link or place, so skipped.\n  * 16.11 Plus 'The Bellings Town Fairy' book: location unknown, skipped.\n  * 21.17 Plus Isle of Man WWII event: no place found (The Alien Gene book). Kept as a theme.\n- Portals of London items (Woolwich Foot Tunnel, Hornsey Town Hall, Crystal Palace Stardoor) come from a blog the author describes as part psychogeography / ghost story. Treat them as folklore-grade.\n- Skipped as not paranormal or not a UK case: 16.11 Saltburn hotel food poisoning, 18.24 Wolverhampton microwave man, 16.25 London man bursting into flames (Dec 2017 news), 20.25 Irish woman's 'ghost pirate' marriage, 20.25 Thames skeleton, 20.12 Menwith Hill/Echelon link (surveillance, not paranormal), 21.07 Plus R101 airship crash (France), 21.16 SAGB/Mavis Pittilla (no case), 18.16 Plus 'Great British Eccentrics', 17.11 Titanic conspiracy, 17.12 sweating sickness.\n- Coordinates marked approx in desc where only area-level. Kerry pilots' sighting is offshore airspace.\n"
+}

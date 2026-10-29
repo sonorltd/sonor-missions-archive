@@ -99,7 +99,7 @@ dialog::backdrop{background:rgba(0,0,0,.35)}
 <script src="sonor-db.js"></script>
 <script>
 "use strict";
-const APP_VERSION = "1.1.0";
+const APP_VERSION = "1.2.0";
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const okUrl = u => /^https?:\/\//.test(String(u || "")) ? String(u) : "";
@@ -127,7 +127,7 @@ async function loadRef() {
 }
 const catColour = key => { const c = R.catBy[key]; if (!c) return "var(--line)"; return (darkMode() && c.metadata?.colour_dark) || c.colour || "var(--line)"; };
 const catLabel = key => R.catBy[key]?.label || key || "";
-const titleOf = (type, row) => row?.[R.typeBy[type]?.title_field || "title"] || row?.id || "";
+const titleOf = (type, row) => { const t = row?.[R.typeBy[type]?.title_field || "title"] || row?.id || ""; const tp = row?.metadata?.topic; return tp && !String(t).includes(tp) ? `${t} — ${tp}` : t; };
 const meta = t => R.typeBy[t]?.metadata || {};
 
 /* ---------- tabs + list ---------- */

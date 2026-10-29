@@ -103,7 +103,7 @@
    "tab": true,
    "editable": false,
    "order": "released.desc",
-   "list_select": "id,title,no,released,plus,show",
+   "list_select": "id,title,no,released,plus,show,metadata",
    "sub": [
     "released"
    ],
