@@ -1,4 +1,4 @@
-# STUDIO - Missions Archive (v1.0.0)
+# STUDIO - Missions Archive (v1.1.0)
 
 > Repo: `sonor-missions-archive` · Pages: https://sonorltd.github.io/sonor-missions-archive/ · app_key `missions-archive`
 > Type: side-project, island-ok. Personal, under STUDIO (thread 3 · Missions), created 2026-10-29. **Not Sonor Smart Homes work**: no customer data, no Sonor branding.
@@ -36,4 +36,5 @@ New kind of thing? Add a row to `arc_types` (+ a table if it needs its own field
 - Personal accounts stay private (RLS) and never go into a public snapshot.
 
 ## Timeline
+- v1.1.0 — 2026-10-29: decade / status / grouped-tag / links-to filters (from `arc_types.metadata.filters`); Occult & ritual sites category (49 cases).
 - v1.0.0 — 2026-10-29: created. Schema, 787 cases, 927 sources, 1,307 MU episodes, 8 entities, ~430 links; UI built from `arc_types`.

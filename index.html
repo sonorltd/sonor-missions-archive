@@ -99,7 +99,7 @@ dialog::backdrop{background:rgba(0,0,0,.35)}
 <script src="sonor-db.js"></script>
 <script>
 "use strict";
-const APP_VERSION = "1.0.0";
+const APP_VERSION = "1.1.0";
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const okUrl = u => /^https?:\/\//.test(String(u || "")) ? String(u) : "";
@@ -150,13 +150,19 @@ function renderBar() {
   const m = meta(S.tab); const parts = [`<input type="search" id="q" placeholder="Search ${esc(R.typeBy[S.tab]?.label.toLowerCase() || "")}…" value="${esc(S.q)}">`];
   for (const f of m.filters || []) {
     let opts = [];
-    if (f === "tags") opts = R.tags.map(t => [t.key, t.label]);
+    if (f === "tags") { const used = {}; S.rows.forEach(r => (r.tags || []).forEach(t => used[t] = (used[t] || 0) + 1));
+      const grp = {}; R.tags.filter(t => used[t.key]).forEach(t => (grp[t.grp || "Other"] ||= []).push(t));
+      const fl = "Any tag"; parts.push(`<select data-f="tags" aria-label="Tag"><option value="">${fl}</option>${Object.entries(grp).map(([g, ts]) => `<optgroup label="${esc(g)}">${ts.sort((a, b) => used[b.key] - used[a.key]).map(t => `<option value="${esc(t.key)}" ${S.f.tags === t.key ? "selected" : ""}>${esc(t.label)} (${used[t.key]})</option>`).join("")}</optgroup>`).join("")}</select>`); continue; }
+    if (f === "decade") { const c = {}; S.rows.forEach(r => { const d = decadeOf(r); c[d] = (c[d] || 0) + 1; });
+      opts = Object.keys(c).sort((a, b) => (b === "undated") - (a === "undated") || b.localeCompare(a)).map(d => [d, (d === "undated" ? "Undated" : d === "pre1900" ? "Before 1900" : d + "s") + ` (${c[d]})`]); }
+    else if (f.startsWith("link:")) { opts = [["yes", "Linked to " + (R.typeBy[f.slice(5)]?.label || f.slice(5)).toLowerCase()], ["no", "Not linked to " + (R.typeBy[f.slice(5)]?.label || f.slice(5)).toLowerCase()]]; }
+    else if (f === "tags") {}
     else if (["cat", "kind"].includes(f)) { const used = new Set(S.rows.map(r => r[f])); opts = R.cats.filter(c => used.has(c.key)).map(c => [c.key, c.label]); }
     else if (f === "show") opts = R.shows.map(s => [s.key, s.name]);
     else if (f === "plus") opts = [["true", "Plus+"], ["false", "Main feed"]];
     else opts = [...new Set(S.rows.map(r => r[f]).filter(Boolean))].sort().map(v => [v, v]);
-    if (opts.length < 2 && f !== "plus") continue;
-    const fl = (m.fields || []).find(x => x.key === f)?.label || f;
+    if (opts.length < 2 && f !== "plus" && !f.startsWith("link:")) continue;
+    const fl = (m.fields || []).find(x => x.key === f)?.label || (f === "decade" ? "Decade" : f.startsWith("link:") ? "Links to " + (R.typeBy[f.slice(5)]?.label || f.slice(5)).toLowerCase() : f);
     parts.push(`<select data-f="${esc(f)}" aria-label="${esc(fl)}"><option value="">${esc(f === "tags" ? "Any tag" : "Any " + fl.toLowerCase())}</option>${opts.map(([v, l]) => `<option value="${esc(v)}" ${S.f[f] === v ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>`);
   }
   if (m.editable) parts.push(`<button class="btn pri" id="add">+ New</button>`);
@@ -166,9 +172,15 @@ function renderBar() {
   if ($("add")) $("add").onclick = () => editItem(S.tab, null);
 }
 let ftsHits = null;
+const decadeOf = r => { const y = r.year ?? (String(r.date_text || r.released || "").match(/^\d{3,4}/) || [])[0]; if (y == null || y === "") return "undated"; return +y < 1900 ? "pre1900" : String(Math.floor(+y / 10) * 10); };
+const linkSets = {};
+async function linkSet(tab, other) { const k = tab + ">" + other; if (linkSets[k]) return linkSets[k];
+  const [a, b] = await Promise.all([sb.from("arc_links").select("a_id").eq("a_type", tab).eq("b_type", other).gt("confidence", 0).limit(10000), sb.from("arc_links").select("b_id").eq("b_type", tab).eq("a_type", other).gt("confidence", 0).limit(10000)]);
+  return linkSets[k] = new Set([...(a.data || []).map(x => x.a_id), ...(b.data || []).map(x => x.b_id)]); }
 async function renderList() {
   const m = meta(S.tab), qq = S.q.trim().toLowerCase();
-  let rows = S.rows.filter(r => Object.entries(S.f).every(([k, v]) => !v || (k === "tags" ? (r.tags || []).includes(v) : String(r[k]) === v)));
+  const ls = {}; for (const [k, v] of Object.entries(S.f)) if (v && k.startsWith("link:")) ls[k] = await linkSet(S.tab, k.slice(5));
+  let rows = S.rows.filter(r => Object.entries(S.f).every(([k, v]) => !v || (k === "tags" ? (r.tags || []).includes(v) : k === "decade" ? decadeOf(r) === v : k.startsWith("link:") ? ls[k].has(r.id) === (v === "yes") : String(r[k]) === v)));
   if (qq) {
     if (m.fts && qq.length > 2) { // full-text search on the server for long text (episode show notes)
       const t = R.typeBy[S.tab]; const {data} = await sb.from(t.table_name).select("id").textSearch(m.fts, qq, {type: "websearch", config: "english"}).limit(1000);

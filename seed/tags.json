@@ -1,238 +1,620 @@
 [
  {
   "key": "abduction",
-  "label": "abduction"
+  "label": "abduction",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "aircraft",
-  "label": "aircraft"
+  "label": "aircraft",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "apparition",
-  "label": "apparition"
+  "label": "apparition",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "battlefield",
-  "label": "battlefield"
+  "label": "battlefield",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "big-cat",
-  "label": "big cat"
+  "label": "big cat",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "black-dog",
-  "label": "black dog"
+  "label": "black dog",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "book",
-  "label": "book"
+  "label": "book",
+  "grp": "Other",
+  "metadata": {}
  },
  {
   "key": "canid",
-  "label": "canid"
+  "label": "canid",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "castle",
-  "label": "castle"
+  "label": "castle",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "child",
-  "label": "child"
+  "label": "child",
+  "grp": "Witnesses",
+  "metadata": {}
  },
  {
   "key": "church",
-  "label": "church"
+  "label": "church",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "coast",
-  "label": "coast"
+  "label": "coast",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "communication",
-  "label": "communication"
+  "label": "communication",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "computer",
-  "label": "computer"
+  "label": "computer",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "entity",
-  "label": "entity"
+  "label": "entity",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "explained",
-  "label": "explained"
+  "label": "explained",
+  "grp": "Evidence",
+  "metadata": {}
  },
  {
   "key": "felid",
-  "label": "felid"
+  "label": "felid",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "folklore",
-  "label": "folklore"
+  "label": "folklore",
+  "grp": "Occult & folklore",
+  "metadata": {}
  },
  {
   "key": "forest",
-  "label": "forest"
+  "label": "forest",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "grey-lady",
-  "label": "grey lady"
+  "label": "grey lady",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "historic",
-  "label": "historic"
+  "label": "historic",
+  "grp": "Occult & folklore",
+  "metadata": {}
  },
  {
   "key": "house",
-  "label": "house"
+  "label": "house",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "inn",
-  "label": "inn"
+  "label": "inn",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "investigated",
-  "label": "investigated"
+  "label": "investigated",
+  "grp": "Evidence",
+  "metadata": {}
  },
  {
   "key": "island",
-  "label": "island"
+  "label": "island",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "lake",
-  "label": "lake"
+  "label": "lake",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "lake-monster",
-  "label": "lake monster"
+  "label": "lake monster",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "landing",
-  "label": "landing"
+  "label": "landing",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "livestock-kills",
-  "label": "livestock kills"
+  "label": "livestock kills",
+  "grp": "Evidence",
+  "metadata": {}
  },
  {
   "key": "military",
-  "label": "military"
+  "label": "military",
+  "grp": "Witnesses",
+  "metadata": {}
  },
  {
   "key": "missing-time",
-  "label": "missing time"
+  "label": "missing time",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "monk",
-  "label": "monk"
+  "label": "monk",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "moor",
-  "label": "moor"
+  "label": "moor",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "mountain",
-  "label": "mountain"
+  "label": "mountain",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "multiple-witnesses",
-  "label": "multiple witnesses"
+  "label": "multiple witnesses",
+  "grp": "Witnesses",
+  "metadata": {}
  },
  {
   "key": "objects-moved",
-  "label": "objects moved"
+  "label": "objects moved",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "official-files",
-  "label": "official files"
+  "label": "official files",
+  "grp": "Evidence",
+  "metadata": {}
  },
  {
   "key": "open-to-visit",
-  "label": "open to visit"
+  "label": "open to visit",
+  "grp": "Visiting",
+  "metadata": {}
  },
  {
   "key": "paul-sinclair-witness",
-  "label": "paul sinclair witness"
+  "label": "paul sinclair witness",
+  "grp": "Witnesses",
+  "metadata": {}
  },
  {
   "key": "phantom-animal",
-  "label": "phantom animal"
+  "label": "phantom animal",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "photo",
-  "label": "photo"
+  "label": "photo",
+  "grp": "Evidence",
+  "metadata": {}
  },
  {
   "key": "physical-traces",
-  "label": "physical traces"
+  "label": "physical traces",
+  "grp": "Evidence",
+  "metadata": {}
  },
  {
   "key": "pilot",
-  "label": "pilot"
+  "label": "pilot",
+  "grp": "Witnesses",
+  "metadata": {}
  },
  {
   "key": "police",
-  "label": "police"
+  "label": "police",
+  "grp": "Witnesses",
+  "metadata": {}
  },
  {
   "key": "prison",
-  "label": "prison"
+  "label": "prison",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "radar",
-  "label": "radar"
+  "label": "radar",
+  "grp": "Evidence",
+  "metadata": {}
  },
  {
   "key": "road",
-  "label": "road"
+  "label": "road",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "rural",
-  "label": "rural"
+  "label": "rural",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "sea",
-  "label": "sea"
+  "label": "sea",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "sea-serpent",
-  "label": "sea serpent"
+  "label": "sea serpent",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "single-witness",
-  "label": "single witness"
+  "label": "single witness",
+  "grp": "Witnesses",
+  "metadata": {}
  },
  {
   "key": "soldier",
-  "label": "soldier"
+  "label": "soldier",
+  "grp": "Witnesses",
+  "metadata": {}
  },
  {
   "key": "urban",
-  "label": "urban"
+  "label": "urban",
+  "grp": "Setting",
+  "metadata": {}
  },
  {
   "key": "video",
-  "label": "video"
+  "label": "video",
+  "grp": "Evidence",
+  "metadata": {}
  },
  {
   "key": "voices",
-  "label": "voices"
+  "label": "voices",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "wave",
-  "label": "wave"
+  "label": "wave",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "white-lady",
-  "label": "white lady"
+  "label": "white lady",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "wild-man",
-  "label": "wild man"
+  "label": "wild man",
+  "grp": "What was seen",
+  "metadata": {}
  },
  {
   "key": "winged",
-  "label": "winged"
+  "label": "winged",
+  "grp": "What was seen",
+  "metadata": {}
+ },
+ {
+  "key": "cave",
+  "label": "cave",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "court",
+  "label": "court",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "cursing",
+  "label": "cursing",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "cemetery",
+  "label": "cemetery",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "hill",
+  "label": "hill",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "necromancy",
+  "label": "necromancy",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "wirral",
+  "label": "wirral",
+  "grp": "Other",
+  "metadata": {}
+ },
+ {
+  "key": "mill",
+  "label": "mill",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "ruin",
+  "label": "ruin",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "devil",
+  "label": "devil",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "farm",
+  "label": "farm",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "crematorium",
+  "label": "crematorium",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "wicca",
+  "label": "wicca",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "desecration",
+  "label": "desecration",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "wales",
+  "label": "wales",
+  "grp": "Other",
+  "metadata": {}
+ },
+ {
+  "key": "town-square",
+  "label": "town square",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "tor",
+  "label": "tor",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "woodland",
+  "label": "woodland",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "hellfire-club",
+  "label": "hellfire club",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "altar",
+  "label": "altar",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "hill-fort",
+  "label": "hill fort",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "unsolved",
+  "label": "unsolved",
+  "grp": "Evidence",
+  "metadata": {}
+ },
+ {
+  "key": "stone",
+  "label": "stone",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "black-magic",
+  "label": "black magic",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "holy-well",
+  "label": "holy well",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "satanic",
+  "label": "satanic",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "witchcraft",
+  "label": "witchcraft",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "magic-circle",
+  "label": "magic circle",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "effigy",
+  "label": "effigy",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "village",
+  "label": "village",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "trig-point",
+  "label": "trig point",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "animal-remains",
+  "label": "animal remains",
+  "grp": "Evidence",
+  "metadata": {}
+ },
+ {
+  "key": "cairn",
+  "label": "cairn",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "coastal",
+  "label": "coastal",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "churchyard",
+  "label": "churchyard",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "cottage",
+  "label": "cottage",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "apotropaic",
+  "label": "apotropaic",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "witch-trial",
+  "label": "witch trial",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "pagan",
+  "label": "pagan",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "stone-circle",
+  "label": "stone circle",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "occult",
+  "label": "occult",
+  "grp": "Occult & folklore",
+  "metadata": {}
+ },
+ {
+  "key": "rock",
+  "label": "rock",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "abbey",
+  "label": "abbey",
+  "grp": "Setting",
+  "metadata": {}
+ },
+ {
+  "key": "crowley",
+  "label": "crowley",
+  "grp": "Occult & folklore",
+  "metadata": {}
  }
 ]
