@@ -1,0 +1,201 @@
+[
+ {
+  "key": "lights",
+  "kind": "case",
+  "label": "Lights & orbs",
+  "colour": "#d9730d",
+  "sort": 0,
+  "metadata": {
+   "colour_dark": "#ffa24d"
+  }
+ },
+ {
+  "key": "craft",
+  "kind": "case",
+  "label": "Craft & objects",
+  "colour": "#1f6f8b",
+  "sort": 1,
+  "metadata": {
+   "colour_dark": "#5cc3e6"
+  }
+ },
+ {
+  "key": "encounter",
+  "kind": "case",
+  "label": "Close encounters",
+  "colour": "#c2185b",
+  "sort": 2,
+  "metadata": {
+   "colour_dark": "#ff6fa6"
+  }
+ },
+ {
+  "key": "ghost",
+  "kind": "case",
+  "label": "Ghosts & figures",
+  "colour": "#6f62a8",
+  "sort": 3,
+  "metadata": {
+   "colour_dark": "#b3a8f0"
+  }
+ },
+ {
+  "key": "poltergeist",
+  "kind": "case",
+  "label": "Poltergeists",
+  "colour": "#8e3fa8",
+  "sort": 4,
+  "metadata": {
+   "colour_dark": "#d38bf0"
+  }
+ },
+ {
+  "key": "cryptid",
+  "kind": "case",
+  "label": "Cryptids & big cats",
+  "colour": "#5b7a1f",
+  "sort": 5,
+  "metadata": {
+   "colour_dark": "#a7c95a"
+  }
+ },
+ {
+  "key": "timeslip",
+  "kind": "case",
+  "label": "Time slips & missing time",
+  "colour": "#a87a08",
+  "sort": 6,
+  "metadata": {
+   "colour_dark": "#e8c35a"
+  }
+ },
+ {
+  "key": "other",
+  "kind": "case",
+  "label": "Other phenomena",
+  "colour": "#6b6b6b",
+  "sort": 7,
+  "metadata": {
+   "colour_dark": "#a8a8a8"
+  }
+ },
+ {
+  "key": "person",
+  "kind": "entity",
+  "label": "People",
+  "colour": "#8a6d3b",
+  "sort": 0
+ },
+ {
+  "key": "book",
+  "kind": "entity",
+  "label": "Books",
+  "colour": "#5d4037",
+  "sort": 1
+ },
+ {
+  "key": "organisation",
+  "kind": "entity",
+  "label": "Organisations",
+  "colour": "#455a64",
+  "sort": 2
+ },
+ {
+  "key": "creature",
+  "kind": "entity",
+  "label": "Creatures",
+  "colour": "#5b7a1f",
+  "sort": 3
+ },
+ {
+  "key": "place",
+  "kind": "entity",
+  "label": "Places",
+  "colour": "#2e7d32",
+  "sort": 4
+ },
+ {
+  "key": "theme",
+  "kind": "entity",
+  "label": "Themes",
+  "colour": "#6a1b9a",
+  "sort": 5
+ },
+ {
+  "key": "event",
+  "kind": "entity",
+  "label": "Events & waves",
+  "colour": "#c62828",
+  "sort": 6
+ },
+ {
+  "key": "media",
+  "kind": "entity",
+  "label": "Films & TV",
+  "colour": "#0277bd",
+  "sort": 7
+ },
+ {
+  "key": "src-web",
+  "kind": "source",
+  "label": "Web page",
+  "sort": 0,
+  "metadata": {
+   "source_kind": "web"
+  }
+ },
+ {
+  "key": "src-news",
+  "kind": "source",
+  "label": "News",
+  "sort": 1,
+  "metadata": {
+   "source_kind": "news"
+  }
+ },
+ {
+  "key": "src-book",
+  "kind": "source",
+  "label": "Book",
+  "sort": 2,
+  "metadata": {
+   "source_kind": "book"
+  }
+ },
+ {
+  "key": "src-podcast",
+  "kind": "source",
+  "label": "Podcast",
+  "sort": 3,
+  "metadata": {
+   "source_kind": "podcast"
+  }
+ },
+ {
+  "key": "src-database",
+  "kind": "source",
+  "label": "Database",
+  "sort": 4,
+  "metadata": {
+   "source_kind": "database"
+  }
+ },
+ {
+  "key": "src-personal",
+  "kind": "source",
+  "label": "Personal account",
+  "sort": 5,
+  "metadata": {
+   "source_kind": "personal"
+  }
+ },
+ {
+  "key": "src-video",
+  "kind": "source",
+  "label": "Video",
+  "sort": 6,
+  "metadata": {
+   "source_kind": "video"
+  }
+ }
+]

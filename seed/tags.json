@@ -1,0 +1,238 @@
+[
+ {
+  "key": "abduction",
+  "label": "abduction"
+ },
+ {
+  "key": "aircraft",
+  "label": "aircraft"
+ },
+ {
+  "key": "apparition",
+  "label": "apparition"
+ },
+ {
+  "key": "battlefield",
+  "label": "battlefield"
+ },
+ {
+  "key": "big-cat",
+  "label": "big cat"
+ },
+ {
+  "key": "black-dog",
+  "label": "black dog"
+ },
+ {
+  "key": "book",
+  "label": "book"
+ },
+ {
+  "key": "canid",
+  "label": "canid"
+ },
+ {
+  "key": "castle",
+  "label": "castle"
+ },
+ {
+  "key": "child",
+  "label": "child"
+ },
+ {
+  "key": "church",
+  "label": "church"
+ },
+ {
+  "key": "coast",
+  "label": "coast"
+ },
+ {
+  "key": "communication",
+  "label": "communication"
+ },
+ {
+  "key": "computer",
+  "label": "computer"
+ },
+ {
+  "key": "entity",
+  "label": "entity"
+ },
+ {
+  "key": "explained",
+  "label": "explained"
+ },
+ {
+  "key": "felid",
+  "label": "felid"
+ },
+ {
+  "key": "folklore",
+  "label": "folklore"
+ },
+ {
+  "key": "forest",
+  "label": "forest"
+ },
+ {
+  "key": "grey-lady",
+  "label": "grey lady"
+ },
+ {
+  "key": "historic",
+  "label": "historic"
+ },
+ {
+  "key": "house",
+  "label": "house"
+ },
+ {
+  "key": "inn",
+  "label": "inn"
+ },
+ {
+  "key": "investigated",
+  "label": "investigated"
+ },
+ {
+  "key": "island",
+  "label": "island"
+ },
+ {
+  "key": "lake",
+  "label": "lake"
+ },
+ {
+  "key": "lake-monster",
+  "label": "lake monster"
+ },
+ {
+  "key": "landing",
+  "label": "landing"
+ },
+ {
+  "key": "livestock-kills",
+  "label": "livestock kills"
+ },
+ {
+  "key": "military",
+  "label": "military"
+ },
+ {
+  "key": "missing-time",
+  "label": "missing time"
+ },
+ {
+  "key": "monk",
+  "label": "monk"
+ },
+ {
+  "key": "moor",
+  "label": "moor"
+ },
+ {
+  "key": "mountain",
+  "label": "mountain"
+ },
+ {
+  "key": "multiple-witnesses",
+  "label": "multiple witnesses"
+ },
+ {
+  "key": "objects-moved",
+  "label": "objects moved"
+ },
+ {
+  "key": "official-files",
+  "label": "official files"
+ },
+ {
+  "key": "open-to-visit",
+  "label": "open to visit"
+ },
+ {
+  "key": "paul-sinclair-witness",
+  "label": "paul sinclair witness"
+ },
+ {
+  "key": "phantom-animal",
+  "label": "phantom animal"
+ },
+ {
+  "key": "photo",
+  "label": "photo"
+ },
+ {
+  "key": "physical-traces",
+  "label": "physical traces"
+ },
+ {
+  "key": "pilot",
+  "label": "pilot"
+ },
+ {
+  "key": "police",
+  "label": "police"
+ },
+ {
+  "key": "prison",
+  "label": "prison"
+ },
+ {
+  "key": "radar",
+  "label": "radar"
+ },
+ {
+  "key": "road",
+  "label": "road"
+ },
+ {
+  "key": "rural",
+  "label": "rural"
+ },
+ {
+  "key": "sea",
+  "label": "sea"
+ },
+ {
+  "key": "sea-serpent",
+  "label": "sea serpent"
+ },
+ {
+  "key": "single-witness",
+  "label": "single witness"
+ },
+ {
+  "key": "soldier",
+  "label": "soldier"
+ },
+ {
+  "key": "urban",
+  "label": "urban"
+ },
+ {
+  "key": "video",
+  "label": "video"
+ },
+ {
+  "key": "voices",
+  "label": "voices"
+ },
+ {
+  "key": "wave",
+  "label": "wave"
+ },
+ {
+  "key": "white-lady",
+  "label": "white lady"
+ },
+ {
+  "key": "wild-man",
+  "label": "wild man"
+ },
+ {
+  "key": "winged",
+  "label": "winged"
+ }
+]

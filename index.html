@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en" data-theme="missions">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Missions Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Alegreya+Sans:wght@400;500;700&display=swap">
+<style>
+/* Missions Archive — the cross-referenced case file behind Sacred Missions Map. Same OS-antiquity look as the map.
+   Every list, label, colour, field and relation comes from the arc_* tables; nothing about the data is written here. */
+:root{--bg:#e9ede6;--panel:#f6f8f3;--ink:#1d2622;--muted:#5d6b63;--line:#c9d1c8;--accent:#8a5a1c;--danger:#b3261e;--ok:#2f7d3b;
+  --display:"IM Fell English","Iowan Old Style",Georgia,serif;--sc:"IM Fell English SC","Iowan Old Style",Georgia,serif;--body:"Alegreya Sans","Gill Sans","Segoe UI",system-ui,sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121816;--panel:#19211e;--ink:#e3e8e2;--muted:#93a39a;--line:#2c3833;--accent:#d6a55e;--danger:#ff7a6e;--ok:#7cc58a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121816;--panel:#19211e;--ink:#e3e8e2;--muted:#93a39a;--line:#2c3833;--accent:#d6a55e;--danger:#ff7a6e;--ok:#7cc58a;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45}
+.wrap{max-width:1240px;margin:0 auto;padding:18px max(16px,env(safe-area-inset-left,0px)) 40px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 20px;margin-bottom:10px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(28px,5.5vw,42px);line-height:1.05;margin:0}
+.sub{color:var(--muted);font-size:15px;margin:2px 0 0}
+.top{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.counts{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin:8px 0 14px;overflow-x:auto}
+.tabs button{font-family:var(--sc);font-size:17px;letter-spacing:.05em;color:var(--muted);background:none;border:0;padding:8px 14px 9px;border-bottom:3px solid transparent;white-space:nowrap;cursor:pointer}
+.tabs button[aria-current="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:18px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:1fr}}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:7px 9px;min-width:0}
+input[type=search]{flex:1 1 220px}
+textarea{width:100%;min-height:110px;resize:vertical}
+.btn{font:inherit;font-size:14px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 11px;cursor:pointer;text-decoration:none;display:inline-flex;gap:6px;align-items:center}
+.btn:hover{border-color:var(--muted)}
+.btn.pri{border-color:var(--accent);color:var(--accent)}
+ul.list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line);max-height:72vh;overflow:auto}
+ul.list li{padding:8px 4px 8px 12px;border-bottom:1px solid var(--line);cursor:pointer;position:relative}
+ul.list li:hover,ul.list li[aria-selected="true"]{background:var(--panel)}
+ul.list li .dot{position:absolute;left:0;top:10px;width:5px;height:calc(100% - 20px);border-radius:3px}
+ul.list li b{font-weight:500;display:block}
+ul.list li small{color:var(--muted)}
+.more{padding:10px;text-align:center;color:var(--muted)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;position:sticky;top:10px;max-height:92vh;overflow:auto}
+.card h2{font-family:var(--display);font-weight:400;font-size:26px;line-height:1.15;margin:2px 0 8px}
+.meta{font-family:var(--sc);letter-spacing:.05em;color:var(--muted);font-size:14px;margin:12px 0 4px}
+.pill{display:inline-block;font-size:12.5px;border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin:0 4px 4px 0;color:var(--muted)}
+.notes{white-space:pre-wrap}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:3px 12px;margin:6px 0}
+dt{color:var(--muted)}dd{margin:0}
+.links{list-style:none;margin:0;padding:0}
+.links li{padding:6px 0;border-bottom:1px dashed var(--line)}
+.links li .rel{color:var(--muted);font-size:13px}
+.links details summary{cursor:pointer;color:var(--muted);font-size:13px}
+.ex{font-size:14px;margin:4px 0 0;white-space:pre-wrap}
+a{color:var(--accent)}
+.linkish{background:none;border:0;padding:0;font:inherit;color:var(--accent);cursor:pointer;text-align:left}
+.empty{color:var(--muted);padding:12px 0}
+form.edit label{display:block;margin:8px 0 2px;color:var(--muted);font-size:14px}
+form.edit input,form.edit select{width:100%}
+.row2{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.status{font-size:13px;color:var(--muted)}
+.err{color:var(--danger)}
+dialog{border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);max-width:560px;width:calc(100% - 32px)}
+dialog::backdrop{background:rgba(0,0,0,.35)}
+.res{list-style:none;padding:0;margin:8px 0;max-height:240px;overflow:auto;border-top:1px solid var(--line)}
+.res li{padding:6px 4px;border-bottom:1px solid var(--line);cursor:pointer}
+.res li[aria-selected="true"]{background:var(--bg)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div><h1 id="title">Missions Archive</h1><p class="sub" id="subtitle">Loading…</p></div>
+    <div class="top"><span class="counts" id="counts"></span><a class="btn" id="maplink" target="_blank" rel="noopener" hidden>Open the map</a></div>
+  </header>
+  <nav class="tabs" id="tabs" role="tablist"></nav>
+  <div class="grid">
+    <section>
+      <div class="bar" id="bar"></div>
+      <ul class="list" id="list"></ul>
+    </section>
+    <aside><div class="card" id="card"><p class="empty">Pick anything on the left to see everything it connects to.</p></div></aside>
+  </div>
+</div>
+
+<dialog id="linkdlg">
+  <form method="dialog" id="linkform">
+    <div class="meta" id="linkfrom"></div>
+    <label>Link to <select id="ltype"></select></label>
+    <input type="search" id="lq" placeholder="Search…" style="width:100%;margin-top:6px">
+    <ul class="res" id="lres"></ul>
+    <label>Relation <select id="lrel"></select></label>
+    <label style="display:block;margin-top:6px">Note <input id="lnote" style="width:100%"></label>
+    <div class="row2"><button class="btn pri" value="ok" id="lok" disabled>Link</button><button class="btn" value="cancel">Cancel</button><span class="status" id="lstat"></span></div>
+  </form>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="sonor-db.js"></script>
+<script>
+"use strict";
+const APP_VERSION = "1.0.0";
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const okUrl = u => /^https?:\/\//.test(String(u || "")) ? String(u) : "";
+const darkMode = () => matchMedia("(prefers-color-scheme: dark)").matches && document.documentElement.dataset.theme !== "light" || document.documentElement.dataset.theme === "dark";
+let sb, R = {types: [], typeBy: {}, cats: [], catBy: {}, rels: [], relBy: {}, tags: [], shows: [], settings: {}};
+const S = {tab: null, q: "", f: {}, rows: [], shown: 120, sel: null};
+const PAGE = 120;
+
+/* ---------- data ---------- */
+async function q(table, build) { let x = sb.from(table).select("*"); if (build) x = build(x); const {data, error} = await x; if (error) throw error; return data; }
+async function loadRef() {
+  const [types, cats, rels, tags, shows, settings, counts] = await Promise.all([
+    q("arc_types", x => x.order("sort")), q("arc_categories", x => x.order("sort")), q("arc_relations"), q("arc_tags", x => x.order("label")),
+    q("arc_shows"), q("arc_settings"), q("v_arc_counts")]);
+  R.types = types; types.forEach(t => R.typeBy[t.key] = t);
+  R.cats = cats; cats.forEach(c => R.catBy[c.key] = c);
+  R.rels = rels; rels.forEach(r => R.relBy[r.key] = r);
+  R.tags = tags; R.shows = shows; settings.forEach(s => R.settings[s.key] = s.value);
+  const c = counts[0] || {};
+  $("counts").textContent = Object.entries(c).map(([k, v]) => `${v} ${k.replace("_", " ")}`).join(" · ");
+  const app = R.settings.app || {};
+  if (app.title) { $("title").textContent = app.title; document.title = app.title; }
+  $("subtitle").textContent = app.subtitle || "Cases, episodes, people, places and notes — every one linkable to any other.";
+  const mapUrl = app.map_pages || app.map_artifact; if (mapUrl) { $("maplink").href = mapUrl; $("maplink").hidden = false; }
+}
+const catColour = key => { const c = R.catBy[key]; if (!c) return "var(--line)"; return (darkMode() && c.metadata?.colour_dark) || c.colour || "var(--line)"; };
+const catLabel = key => R.catBy[key]?.label || key || "";
+const titleOf = (type, row) => row?.[R.typeBy[type]?.title_field || "title"] || row?.id || "";
+const meta = t => R.typeBy[t]?.metadata || {};
+
+/* ---------- tabs + list ---------- */
+function renderTabs() {
+  const tabs = R.types.filter(t => t.table_name && meta(t.key).tab);
+  $("tabs").innerHTML = tabs.map(t => `<button role="tab" data-t="${esc(t.key)}" aria-current="${t.key === S.tab}">${esc(t.icon || "")} ${esc(t.label)}</button>`).join("");
+  $("tabs").querySelectorAll("button").forEach(b => b.onclick = () => openTab(b.dataset.t));
+}
+async function openTab(key, keepSel) {
+  S.tab = key; S.q = ""; S.f = {}; S.shown = PAGE; if (!keepSel) S.sel = null;
+  history.replaceState(null, "", "#" + key + (S.sel ? "/" + encodeURIComponent(S.sel.id) : ""));
+  renderTabs(); renderBar(); $("list").innerHTML = `<li class="more">Loading…</li>`;
+  const t = R.typeBy[key], m = meta(key);
+  try {
+    S.rows = await q(t.table_name, x => { x = sb.from(t.table_name).select(m.list_select || "*"); const [col, dir] = (m.order || "id.asc").split("."); return x.order(col, {ascending: dir !== "desc", nullsFirst: false}).limit(5000); });
+  } catch (e) { $("list").innerHTML = `<li class="more err">${esc(e.message)}</li>`; return; }
+  renderBar(); renderList();
+}
+function renderBar() {
+  const m = meta(S.tab); const parts = [`<input type="search" id="q" placeholder="Search ${esc(R.typeBy[S.tab]?.label.toLowerCase() || "")}…" value="${esc(S.q)}">`];
+  for (const f of m.filters || []) {
+    let opts = [];
+    if (f === "tags") opts = R.tags.map(t => [t.key, t.label]);
+    else if (["cat", "kind"].includes(f)) { const used = new Set(S.rows.map(r => r[f])); opts = R.cats.filter(c => used.has(c.key)).map(c => [c.key, c.label]); }
+    else if (f === "show") opts = R.shows.map(s => [s.key, s.name]);
+    else if (f === "plus") opts = [["true", "Plus+"], ["false", "Main feed"]];
+    else opts = [...new Set(S.rows.map(r => r[f]).filter(Boolean))].sort().map(v => [v, v]);
+    if (opts.length < 2 && f !== "plus") continue;
+    const fl = (m.fields || []).find(x => x.key === f)?.label || f;
+    parts.push(`<select data-f="${esc(f)}" aria-label="${esc(fl)}"><option value="">${esc(f === "tags" ? "Any tag" : "Any " + fl.toLowerCase())}</option>${opts.map(([v, l]) => `<option value="${esc(v)}" ${S.f[f] === v ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>`);
+  }
+  if (m.editable) parts.push(`<button class="btn pri" id="add">+ New</button>`);
+  $("bar").innerHTML = parts.join("");
+  $("q").oninput = e => { S.q = e.target.value; S.shown = PAGE; clearTimeout(S.qt); S.qt = setTimeout(renderList, 160); };
+  $("bar").querySelectorAll("select").forEach(s => s.onchange = () => { S.f[s.dataset.f] = s.value; S.shown = PAGE; renderList(); });
+  if ($("add")) $("add").onclick = () => editItem(S.tab, null);
+}
+let ftsHits = null;
+async function renderList() {
+  const m = meta(S.tab), qq = S.q.trim().toLowerCase();
+  let rows = S.rows.filter(r => Object.entries(S.f).every(([k, v]) => !v || (k === "tags" ? (r.tags || []).includes(v) : String(r[k]) === v)));
+  if (qq) {
+    if (m.fts && qq.length > 2) { // full-text search on the server for long text (episode show notes)
+      const t = R.typeBy[S.tab]; const {data} = await sb.from(t.table_name).select("id").textSearch(m.fts, qq, {type: "websearch", config: "english"}).limit(1000);
+      const ids = new Set((data || []).map(d => d.id)); rows = rows.filter(r => ids.has(r.id) || String(titleOf(S.tab, r)).toLowerCase().includes(qq));
+    } else rows = rows.filter(r => (m.search || []).some(k => String(r[k] ?? "").toLowerCase().includes(qq)) || String(titleOf(S.tab, r)).toLowerCase().includes(qq));
+  }
+  const total = rows.length; rows = rows.slice(0, S.shown);
+  $("list").innerHTML = rows.map(r => `<li data-id="${esc(r.id)}" aria-selected="${S.sel?.id === r.id}">${m.colour_by ? `<span class="dot" style="background:${catColour(r[m.colour_by])}"></span>` : ""}<b>${esc(titleOf(S.tab, r))}</b><small>${esc([m.colour_by ? catLabel(r[m.colour_by]) : "", ...(m.sub || []).map(k => r[k])].filter(Boolean).join(" · ").slice(0, 160))}</small></li>`).join("")
+    + (total > S.shown ? `<li class="more"><button class="btn" id="moreb">Show more (${total - S.shown} left)</button></li>` : "") + (!total ? `<li class="more">Nothing matches.</li>` : "");
+  $("list").querySelectorAll("li[data-id]").forEach(li => li.onclick = () => showItem(S.tab, li.dataset.id));
+  if ($("moreb")) $("moreb").onclick = () => { S.shown += PAGE; renderList(); };
+}
+
+/* ---------- detail ---------- */
+async function getItem(type, id) { const t = R.typeBy[type]; if (!t?.table_name) return {id}; const {data} = await sb.from(t.table_name).select("*").eq("id", id).maybeSingle(); return data; }
+async function linksFor(type, id) {
+  const [a, b] = await Promise.all([
+    sb.from("arc_links").select("*").eq("a_type", type).eq("a_id", id).gt("confidence", 0),
+    sb.from("arc_links").select("*").eq("b_type", type).eq("b_id", id).gt("confidence", 0)]);
+  const out = [...(a.data || []).map(l => ({...l, dir: "out", otype: l.b_type, oid: l.b_id})), ...(b.data || []).map(l => ({...l, dir: "in", otype: l.a_type, oid: l.a_id}))];
+  // fetch titles of the other ends, grouped per type
+  const byType = {}; out.forEach(l => (byType[l.otype] ||= new Set()).add(l.oid));
+  const titles = {};
+  await Promise.all(Object.entries(byType).map(async ([t, ids]) => {
+    const T = R.typeBy[t]; if (!T?.table_name) return;
+    const {data} = await sb.from(T.table_name).select(`id,${T.title_field}`).in("id", [...ids]);
+    (data || []).forEach(r => titles[t + ":" + r.id] = r[T.title_field]);
+  }));
+  out.forEach(l => l.otitle = titles[l.otype + ":" + l.oid] || l.oid);
+  return out;
+}
+function fieldHTML(f, v) {
+  if (v == null || v === "" || (Array.isArray(v) && !v.length)) return "";
+  if (f.type === "category") return `<span class="pill" style="border-color:${catColour(v)};color:${catColour(v)}">${esc(catLabel(v))}</span>`;
+  if (f.type === "tags") return v.map(t => `<span class="pill">${esc(R.tags.find(x => x.key === t)?.label || t)}</span>`).join("");
+  if (f.type === "url") return okUrl(v) ? `<a href="${esc(v)}" target="_blank" rel="noopener">${esc(v.replace(/^https?:\/\/(www\.)?/, "").slice(0, 60))}</a>` : esc(v);
+  if (f.type === "bool") return v ? "Yes" : "No";
+  if (f.type === "longtext" || f.type === "textarea") return `<div class="notes">${esc(v)}</div>`;
+  if (f.type === "linklist") return `<ul class="links">${v.map(l => `<li>${okUrl(l.url) ? `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text || l.url)}</a>` : esc(l.text)}</li>`).join("")}</ul>`;
+  return esc(v);
+}
+async function showItem(type, id) {
+  if (type !== S.tab && meta(type).tab) { S.sel = {type, id}; await openTab(type, true); }
+  S.sel = {type, id}; history.replaceState(null, "", "#" + type + "/" + encodeURIComponent(id));
+  $("list").querySelectorAll("li[data-id]").forEach(li => li.setAttribute("aria-selected", li.dataset.id === id));
+  const card = $("card"); card.innerHTML = `<p class="empty">Loading…</p>`;
+  const [row, links] = await Promise.all([getItem(type, id), linksFor(type, id)]);
+  if (!row) { card.innerHTML = `<p class="empty">Not found (or private).</p>`; return; }
+  const m = meta(type), T = R.typeBy[type];
+  const long = (m.fields || []).filter(f => ["textarea", "longtext", "linklist", "tags"].includes(f.type));
+  const short = (m.fields || []).filter(f => !long.includes(f) && f.key !== T.title_field);
+  let h = `<div class="meta">${esc(T.icon || "")} ${esc(T.label)}</div><h2>${esc(titleOf(type, row))}</h2>`;
+  h += `<dl>${short.map(f => { const x = fieldHTML(f, row[f.key]); return x ? `<dt>${esc(f.label)}</dt><dd>${x}</dd>` : ""; }).join("")}</dl>`;
+  for (const f of long) { const x = fieldHTML(f, row[f.key]); if (x) h += `<div class="meta">${esc(f.label)}</div>${x}`; }
+  // child tables (e.g. a case's sources)
+  for (const ch of m.children || []) {
+    const CT = R.typeBy[ch.type]; const {data} = await sb.from(CT.table_name).select("*").eq(ch.fk, id).order("sort");
+    if (data?.length) h += `<div class="meta">${esc(ch.label)} (${data.length})</div><ul class="links">${data.map(s => `<li>${okUrl(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>` : esc(s.name)}${s.note ? ` <span class="rel">— ${esc(s.note)}</span>` : ""}</li>`).join("")}</ul>`;
+    if (meta(ch.type).editable) h += `<button class="btn" id="addchild" data-type="${esc(ch.type)}" data-fk="${esc(ch.fk)}">+ Add ${esc(CT.label.replace(/s$/, "").toLowerCase())}</button>`;
+  }
+  // links grouped by relation, labels from arc_relations (inverse label when the link points at this item)
+  const groups = {};
+  links.forEach(l => { const r = R.relBy[l.relation] || {label: l.relation, inverse_label: l.relation}; const lab = l.dir === "out" ? r.label : (r.inverse_label || r.label); (groups[lab] ||= []).push(l); });
+  h += `<div class="meta">Connections (${links.length})</div>`;
+  if (!links.length) h += `<p class="empty">Nothing linked yet.</p>`;
+  for (const [lab, ls] of Object.entries(groups)) {
+    h += `<div class="rel" style="margin-top:8px;font-weight:500">${esc(lab)}</div><ul class="links">${ls.sort((a, b) => String(a.otitle).localeCompare(String(b.otitle))).map(l => `<li><span class="rel">${esc(R.typeBy[l.otype]?.icon || "")}</span> <button class="linkish" data-t="${esc(l.otype)}" data-i="${esc(l.oid)}">${esc(l.otitle)}</button>${l.note ? ` <span class="rel">— ${esc(l.note)}</span>` : ""}${l.excerpt ? `<details><summary>Show notes on this case</summary><p class="ex">${esc(l.excerpt)}</p></details>` : ""}</li>`).join("")}</ul>`;
+  }
+  h += `<div class="row2">${T.table_name ? `<button class="btn pri" id="linkb">+ Link to anything</button>` : ""}${m.editable ? `<button class="btn" id="editb">Edit</button>` : ""}${okUrl(row.url) ? `<a class="btn" href="${esc(row.url)}" target="_blank" rel="noopener">Open source</a>` : ""}</div>`;
+  card.innerHTML = h;
+  card.querySelectorAll(".linkish").forEach(b => b.onclick = () => showItem(b.dataset.t, b.dataset.i));
+  if ($("linkb")) $("linkb").onclick = () => linkDialog(type, id, titleOf(type, row));
+  if ($("editb")) $("editb").onclick = () => editItem(type, row);
+  if ($("addchild")) $("addchild").onclick = e => editItem(e.target.dataset.type, null, {[e.target.dataset.fk]: id}, () => showItem(type, id));
+}
+
+/* ---------- edit (fields come from arc_types.metadata.fields) ---------- */
+function slug(s) { return String(s).toLowerCase().normalize("NFKD").replace(/[^\w\s-]/g, "").trim().replace(/[\s_]+/g, "-").replace(/-+/g, "-").slice(0, 48); }
+function editItem(type, row, preset = {}, after) {
+  const T = R.typeBy[type], m = meta(type), isNew = !row; row = row || {...preset};
+  const inp = f => {
+    const v = row[f.key];
+    if (f.type === "category") return `<select name="${f.key}">${R.cats.filter(c => c.kind === f.kind).map(c => `<option value="${esc(c.key)}" ${c.key === v ? "selected" : ""}>${esc(c.label)}</option>`).join("")}</select>`;
+    if (f.type === "textarea" || f.type === "longtext") return `<textarea name="${f.key}">${esc(v || "")}</textarea>`;
+    if (f.type === "tags") return `<input name="${f.key}" value="${esc((v || []).join(", "))}" list="taglist" placeholder="comma separated">`;
+    if (f.type === "bool") return `<select name="${f.key}"><option value="false">No</option><option value="true" ${v ? "selected" : ""}>Yes</option></select>`;
+    if (f.type === "linklist") return "";
+    return `<input name="${f.key}" type="${f.type === "number" ? "number" : f.type === "date" ? "date" : "text"}" step="any" value="${esc(v ?? "")}">`;
+  };
+  $("card").innerHTML = `<div class="meta">${isNew ? "New" : "Edit"} · ${esc(T.label)}</div><form class="edit" id="ef">${(m.fields || []).map(f => f.type === "linklist" ? "" : `<label>${esc(f.label)}</label>${inp(f)}`).join("")}
+    <datalist id="taglist">${R.tags.map(t => `<option value="${esc(t.key)}">`).join("")}</datalist>
+    <div class="row2"><button class="btn pri" type="submit">Save</button><button class="btn" type="button" id="ec">Cancel</button><span class="status" id="es"></span></div></form>`;
+  $("ec").onclick = () => isNew ? (after ? after() : ($("card").innerHTML = `<p class="empty">Cancelled.</p>`)) : showItem(type, row.id);
+  $("ef").onsubmit = async e => {
+    e.preventDefault(); const fd = new FormData(e.target), out = {...preset};
+    for (const f of m.fields || []) {
+      if (!fd.has(f.key)) continue; let v = fd.get(f.key);
+      if (f.type === "number") v = v === "" ? null : +v;
+      else if (f.type === "tags") { v = String(v).split(",").map(s => slug(s)).filter(Boolean); for (const t of v) if (!R.tags.find(x => x.key === t)) { await sb.from("arc_tags").upsert({key: t, label: t.replace(/-/g, " ")}); R.tags.push({key: t, label: t.replace(/-/g, " ")}); } }
+      else if (f.type === "bool") v = v === "true";
+      else if (f.type === "date") v = v || null;
+      out[f.key] = v;
+    }
+    if ("year" in (S.rows[0] || {}) && out.date_text != null) { const y = String(out.date_text).match(/^\d{3,4}/); out.year = y ? +y[0] : null; }
+    out.updated_at = new Date().toISOString();
+    $("es").textContent = "Saving…";
+    let res;
+    if (isNew) {
+      if (T.table_name !== "arc_sources" && T.table_name !== "arc_log") out.id = slug(out[T.title_field] || "item") + "-" + Date.now().toString(36).slice(-4);
+      res = await sb.from(T.table_name).insert(out).select().maybeSingle();
+    } else res = await sb.from(T.table_name).update(out).eq("id", row.id).select().maybeSingle();
+    if (res.error) { $("es").innerHTML = `<span class="err">${esc(res.error.message)}</span>`; return; }
+    if (after) return after();
+    if (S.tab === type) await openTab(type, true);
+    showItem(type, res.data?.id || row.id);
+  };
+}
+
+/* ---------- link anything to anything ---------- */
+let L = null;
+function linkDialog(type, id, title) {
+  L = {type, id, pick: null}; $("linkfrom").textContent = `Link “${title}” to…`;
+  const types = R.types.filter(t => t.table_name);
+  $("ltype").innerHTML = types.map(t => `<option value="${esc(t.key)}">${esc(t.icon || "")} ${esc(t.label)}</option>`).join("");
+  $("lrel").innerHTML = R.rels.map(r => `<option value="${esc(r.key)}">${esc(r.label)}</option>`).join("");
+  $("lq").value = ""; $("lnote").value = ""; $("lres").innerHTML = ""; $("lok").disabled = true; $("lstat").textContent = "";
+  $("linkdlg").showModal(); $("lq").focus();
+}
+async function linkSearch() {
+  const t = R.typeBy[$("ltype").value], v = $("lq").value.trim(); if (!t) return;
+  let x = sb.from(t.table_name).select(`id,${t.title_field}`).limit(30);
+  if (v) x = x.ilike(t.title_field, `%${v}%`);
+  const {data} = await x;
+  $("lres").innerHTML = (data || []).filter(r => !(r.id === L.id && t.key === L.type)).map(r => `<li data-id="${esc(r.id)}">${esc(r[t.title_field])}</li>`).join("") || `<li class="empty">No matches</li>`;
+  $("lres").querySelectorAll("li[data-id]").forEach(li => li.onclick = () => { L.pick = li.dataset.id; $("lres").querySelectorAll("li").forEach(x => x.setAttribute("aria-selected", x === li)); $("lok").disabled = false; });
+}
+$("lq").oninput = () => { clearTimeout(L.t); L.t = setTimeout(linkSearch, 180); };
+$("ltype").onchange = () => { L.pick = null; $("lok").disabled = true; linkSearch(); };
+$("linkform").onsubmit = async e => {
+  if (e.submitter?.value !== "ok") return; e.preventDefault();
+  const row = {a_type: L.type, a_id: L.id, b_type: $("ltype").value, b_id: L.pick, relation: $("lrel").value, note: $("lnote").value, matched_by: "manual", confidence: 1};
+  $("lstat").textContent = "Saving…";
+  const {error} = await sb.from("arc_links").upsert(row, {onConflict: "a_type,a_id,b_type,b_id,relation"});
+  if (error) { $("lstat").innerHTML = `<span class="err">${esc(error.message)}</span>`; return; }
+  $("linkdlg").close(); showItem(L.type, L.id);
+};
+
+/* ---------- boot ---------- */
+(async () => {
+  try {
+    sb = (typeof SonorDB !== "undefined" ? new SonorDB() : null)?.client;
+    if (!sb) throw new Error("sonor-db.js did not load");
+    await loadRef();
+    const [t, id] = decodeURIComponent(location.hash.slice(1)).split("/");
+    const first = R.types.find(x => x.table_name && x.metadata?.tab);
+    const tab = R.typeBy[t]?.metadata?.tab ? t : first?.key;
+    if (id) S.sel = {type: tab, id};
+    await openTab(tab, !!id);
+    if (id) showItem(tab, id);
+    try { window.sonorDb?.versions?.report?.("missions-archive", APP_VERSION, "Missions Archive", "sonor-missions-archive"); } catch (_) {}
+  } catch (e) { $("subtitle").innerHTML = `<span class="err">Could not reach the archive database: ${esc(e.message)}</span>`; }
+})();
+</script>
+</body>
+</html>

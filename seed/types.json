@@ -1,0 +1,22 @@
+[
+ {"key":"case","label":"Cases","table_name":"arc_cases","title_field":"title","icon":"◉","sort":1,"metadata":{"tab":true,"editable":true,"order":"updated_at.desc",
+  "list_select":"id,title,cat,date_text,year,place,tags,origin,lat,lon,updated_at","sub":["date_text","place"],"colour_by":"cat","filters":["cat","origin","tags"],"search":["title","place","summary"],
+  "fields":[{"key":"title","label":"Title","type":"text"},{"key":"cat","label":"Category","type":"category","kind":"case"},{"key":"date_text","label":"Date (YYYY/MM/DD or YYYY)","type":"text"},
+   {"key":"place","label":"Place","type":"text"},{"key":"lat","label":"Latitude","type":"number"},{"key":"lon","label":"Longitude","type":"number"},
+   {"key":"summary","label":"Summary","type":"textarea"},{"key":"tags","label":"Tags","type":"tags"},{"key":"origin","label":"Origin","type":"text"},{"key":"status","label":"Status","type":"text"}],
+  "children":[{"type":"source","fk":"case_id","label":"Sources"}]}},
+ {"key":"episode","label":"Episodes","table_name":"arc_episodes","title_field":"title","icon":"♫","sort":2,"metadata":{"tab":true,"editable":false,"order":"released.desc",
+  "list_select":"id,title,no,released,plus,show","sub":["released"],"filters":["plus","show"],"search":["title","notes"],"fts":"fts",
+  "fields":[{"key":"title","label":"Title","type":"text"},{"key":"no","label":"Episode","type":"text"},{"key":"released","label":"Released","type":"date"},{"key":"plus","label":"Plus+","type":"bool"},
+   {"key":"url","label":"Page","type":"url"},{"key":"notes","label":"Show notes","type":"longtext"},{"key":"links","label":"Show-notes links","type":"linklist"}]}},
+ {"key":"entity","label":"People, places & themes","table_name":"arc_entities","title_field":"name","icon":"◆","sort":3,"metadata":{"tab":true,"editable":true,"order":"name.asc",
+  "list_select":"id,name,kind,summary","sub":["summary"],"colour_by":"kind","filters":["kind"],"search":["name","summary"],
+  "fields":[{"key":"name","label":"Name","type":"text"},{"key":"kind","label":"Kind","type":"category","kind":"entity"},{"key":"summary","label":"Summary","type":"textarea"},
+   {"key":"url","label":"Link","type":"url"},{"key":"aliases","label":"Also known as","type":"tags"}]}},
+ {"key":"log","label":"Log","table_name":"arc_log","title_field":"title","icon":"✎","sort":4,"metadata":{"tab":true,"editable":true,"order":"entry_date.desc",
+  "list_select":"id,title,entry_date,body","sub":["entry_date"],"filters":[],"search":["title","body"],
+  "fields":[{"key":"title","label":"Title","type":"text"},{"key":"entry_date","label":"Date","type":"date"},{"key":"body","label":"Notes","type":"textarea"}]}},
+ {"key":"source","label":"Sources","table_name":"arc_sources","title_field":"name","icon":"❝","sort":5,"metadata":{"tab":false,"editable":true,
+  "fields":[{"key":"name","label":"Name","type":"text"},{"key":"url","label":"Link","type":"url"},{"key":"kind","label":"Kind","type":"text"},{"key":"note","label":"Note","type":"text"}]}},
+ {"key":"site","label":"Map sites","table_name":null,"title_field":"name","icon":"△","sort":6,"metadata":{"tab":false}}
+]

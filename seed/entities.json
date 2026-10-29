@@ -1,0 +1,52 @@
+[
+ {
+  "id": "paul-sinclair",
+  "kind": "person",
+  "name": "Paul Sinclair",
+  "summary": "Researcher behind Truth Proof; author of the Truth-Proof books on the Bridlington / Flamborough anomalous zone in East Yorkshire.",
+  "url": "https://truthproof.uk"
+ },
+ {
+  "id": "ley-lines",
+  "kind": "theme",
+  "name": "Ley lines & earth energies",
+  "summary": "Alignments of ancient sites and the energy-current ideas attached to them."
+ },
+ {
+  "id": "werewolves-dogmen",
+  "kind": "theme",
+  "name": "Werewolves, dogmen & wolf-like humanoids",
+  "summary": "Upright canid and wild-man reports, folklore and modern."
+ },
+ {
+  "id": "british-big-cats",
+  "kind": "theme",
+  "name": "British big cats (ABCs)",
+  "summary": "Alien big cat sightings and livestock kills across Britain and Ireland."
+ },
+ {
+  "id": "dyfed-triangle",
+  "kind": "event",
+  "name": "Dyfed / Welsh Triangle wave (1977)",
+  "summary": "The 1976–78 wave of UFO and humanoid reports around St Brides Bay, Pembrokeshire."
+ },
+ {
+  "id": "yorkshire-anomalous-zone",
+  "kind": "place",
+  "name": "East Yorkshire anomalous zone",
+  "summary": "Bridlington–Flamborough–Bempton area studied by Paul Sinclair."
+ },
+ {
+  "id": "loch-ness",
+  "kind": "place",
+  "name": "Loch Ness",
+  "summary": "The loch and its monster tradition, from St Columba to the modern sonar hunts.",
+  "url": "https://en.wikipedia.org/wiki/Loch_Ness_Monster"
+ },
+ {
+  "id": "cannock-chase",
+  "kind": "place",
+  "name": "Cannock Chase",
+  "summary": "Staffordshire forest with a long record of big cat, werewolf, pig-man, UFO and ghost reports."
+ }
+]

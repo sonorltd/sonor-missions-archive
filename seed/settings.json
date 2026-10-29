@@ -1,0 +1,18 @@
+[
+ {
+  "key": "home",
+  "value": {
+   "name": "Mold",
+   "lat": 53.1667,
+   "lon": -3.1415
+  }
+ },
+ {
+  "key": "app",
+  "value": {
+   "title": "Missions Archive",
+   "map_artifact": "https://claude.ai/artifact/UdQ8Sz9WCEbDXTWLCPPwxT",
+   "map_pages": "https://sonorltd.github.io/sonor-sacred-missions-map/"
+  }
+ }
+]
