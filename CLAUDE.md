@@ -1,4 +1,4 @@
-# STUDIO - Missions Archive (v1.2.0)
+# STUDIO - Missions Archive (v1.3.0)
 
 > Repo: `sonor-missions-archive` · Pages: https://sonorltd.github.io/sonor-missions-archive/ · app_key `missions-archive`
 > Type: side-project, island-ok. Personal, under STUDIO (thread 3 · Missions), created 2026-10-29. **Not Sonor Smart Homes work**: no customer data, no Sonor branding.
@@ -21,7 +21,7 @@ The cross-referenced case file behind **Sacred Missions Map**. It holds every ca
 | `arc_episodes` | Podcast episodes (Mysterious Universe: 1,307, scraped 2026-10-29), show notes, show-notes links, full-text index `fts`. |
 | `arc_entities` | People, places, themes, events / waves, books, organisations, creatures, media — kind from `arc_categories`. |
 | `arc_log` | Free notes / investigation log. |
-| `arc_categories` / `arc_tags` / `arc_shows` / `arc_settings` | Lookups: category labels + colours (light + dark), tags, shows, app settings (home, map links). |
+| `arc_categories` / `arc_tags` / `arc_shows` / `arc_settings` | Lookups: category labels + colours (light + dark), tags, shows, app settings (home, map links). Kind `case-group` rows (UFO, Ghosts, Cryptids, Strange, Ritual) hold `metadata.cats`; each case category carries `metadata.group` — the map makes one tab per group. |
 Views: `v_arc_case_episodes`, `v_arc_counts`. RLS: anon select / insert / update, never delete.
 
 New kind of thing? Add a row to `arc_types` (+ a table if it needs its own fields) — links and the UI pick it up. New relation? A row in `arc_relations`.
@@ -33,9 +33,10 @@ New kind of thing? Add a row to `arc_types` (+ a table if it needs its own field
 ## Rules
 - Show-notes excerpts on a case carry **only the text about that case** (matching sentences + the show-notes links that name it) — MU episodes cover several topics.
 - Auto matches are reviewed; generic subject episodes (Loch Ness, Cannock Chase…) link to the place / theme entity, not to every sighting there.
-- Personal accounts stay private (RLS) and never go into a public snapshot.
+- Personal accounts stay private (RLS) and never go into a public snapshot. `arc_links` is readable by the anon key, so never add link rows that point at a private case; group nearby public cases under a place entity instead (e.g. `upper-tywi-llyn-brianne`).
 
 ## Timeline
+- v1.3.0 — 2026-10-30: category groups + Group filter; Upper Tywi & Llyn Brianne entity; Welsh wolf-like cases; rule-based entity links.
 - v1.2.0 — 2026-10-29: full MU research pass (90 new cases, case-only excerpts with evidence level, episode topics), ritual research (59 new, 36 deepened).
 - v1.1.0 — 2026-10-29: decade / status / grouped-tag / links-to filters (from `arc_types.metadata.filters`); Occult & ritual sites category (49 cases).
 - v1.0.0 — 2026-10-29: created. Schema, 787 cases, 927 sources, 1,307 MU episodes, 8 entities, ~430 links; UI built from `arc_types`.

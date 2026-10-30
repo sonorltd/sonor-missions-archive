@@ -99,7 +99,7 @@ dialog::backdrop{background:rgba(0,0,0,.35)}
 <script src="sonor-db.js"></script>
 <script>
 "use strict";
-const APP_VERSION = "1.2.0";
+const APP_VERSION = "1.3.0";
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const okUrl = u => /^https?:\/\//.test(String(u || "")) ? String(u) : "";
@@ -157,12 +157,13 @@ function renderBar() {
       opts = Object.keys(c).sort((a, b) => (b === "undated") - (a === "undated") || b.localeCompare(a)).map(d => [d, (d === "undated" ? "Undated" : d === "pre1900" ? "Before 1900" : d + "s") + ` (${c[d]})`]); }
     else if (f.startsWith("link:")) { opts = [["yes", "Linked to " + (R.typeBy[f.slice(5)]?.label || f.slice(5)).toLowerCase()], ["no", "Not linked to " + (R.typeBy[f.slice(5)]?.label || f.slice(5)).toLowerCase()]]; }
     else if (f === "tags") {}
+    else if (f === "group") { const c = {}; S.rows.forEach(r => { const g = R.catBy[r.cat]?.metadata?.group; if (g) c[g] = (c[g] || 0) + 1; }); opts = R.cats.filter(x => x.kind === "case-group" && c[x.key]).map(x => [x.key, `${x.label} (${c[x.key]})`]); }
     else if (["cat", "kind"].includes(f)) { const used = new Set(S.rows.map(r => r[f])); opts = R.cats.filter(c => used.has(c.key)).map(c => [c.key, c.label]); }
     else if (f === "show") opts = R.shows.map(s => [s.key, s.name]);
     else if (f === "plus") opts = [["true", "Plus+"], ["false", "Main feed"]];
     else opts = [...new Set(S.rows.map(r => r[f]).filter(Boolean))].sort().map(v => [v, v]);
     if (opts.length < 2 && f !== "plus" && !f.startsWith("link:")) continue;
-    const fl = (m.fields || []).find(x => x.key === f)?.label || (f === "decade" ? "Decade" : f.startsWith("link:") ? "Links to " + (R.typeBy[f.slice(5)]?.label || f.slice(5)).toLowerCase() : f);
+    const fl = (m.fields || []).find(x => x.key === f)?.label || (f === "decade" ? "Decade" : f === "group" ? "Group" : f.startsWith("link:") ? "Links to " + (R.typeBy[f.slice(5)]?.label || f.slice(5)).toLowerCase() : f);
     parts.push(`<select data-f="${esc(f)}" aria-label="${esc(fl)}"><option value="">${esc(f === "tags" ? "Any tag" : "Any " + fl.toLowerCase())}</option>${opts.map(([v, l]) => `<option value="${esc(v)}" ${S.f[f] === v ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>`);
   }
   if (m.editable) parts.push(`<button class="btn pri" id="add">+ New</button>`);
@@ -180,7 +181,7 @@ async function linkSet(tab, other) { const k = tab + ">" + other; if (linkSets[k
 async function renderList() {
   const m = meta(S.tab), qq = S.q.trim().toLowerCase();
   const ls = {}; for (const [k, v] of Object.entries(S.f)) if (v && k.startsWith("link:")) ls[k] = await linkSet(S.tab, k.slice(5));
-  let rows = S.rows.filter(r => Object.entries(S.f).every(([k, v]) => !v || (k === "tags" ? (r.tags || []).includes(v) : k === "decade" ? decadeOf(r) === v : k.startsWith("link:") ? ls[k].has(r.id) === (v === "yes") : String(r[k]) === v)));
+  let rows = S.rows.filter(r => Object.entries(S.f).every(([k, v]) => !v || (k === "tags" ? (r.tags || []).includes(v) : k === "decade" ? decadeOf(r) === v : k === "group" ? R.catBy[r.cat]?.metadata?.group === v : k.startsWith("link:") ? ls[k].has(r.id) === (v === "yes") : String(r[k]) === v)));
   if (qq) {
     if (m.fts && qq.length > 2) { // full-text search on the server for long text (episode show notes)
       const t = R.typeBy[S.tab]; const {data} = await sb.from(t.table_name).select("id").textSearch(m.fts, qq, {type: "websearch", config: "english"}).limit(1000);
