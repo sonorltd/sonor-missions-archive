@@ -6,7 +6,19 @@ import json, os, re, sys, urllib.request, datetime
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 db = open(os.path.join(ROOT, "..", "sonor-db.js")).read()
 URL = re.search(r"SONOR_SUPABASE_URL\s*=\s*'([^']+)'", db).group(1)
+# --- Supabase key (2026-11-01): service key from env / Mac Keychain first, anon key only as fallback ---
+def _sonor_sb_key(fallback=""):
+    import os as _os, subprocess as _sp, sys as _sys
+    k = (_os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or "").strip()
+    if not k and _sys.platform == "darwin":
+        try:
+            k = _sp.run(["security", "find-generic-password", "-a", "sonor", "-s", "sonor-supabase-service", "-w"],
+                        capture_output=True, text=True, timeout=5).stdout.strip()
+        except Exception:
+            k = ""
+    return k or fallback
 KEY = re.search(r"SONOR_SUPABASE_ANON\s*=\s*'([^']+)'", db).group(1)
+KEY = _sonor_sb_key(KEY)
 def up(table, rows, conflict):
     keys = sorted({k for r in rows for k in r})  # PostgREST bulk insert needs identical keys
     rows = [{k: r.get(k, {} if k in ("metadata", "value") else [] if k in ("tags", "links", "aliases") else None) for k in keys} for r in rows]
