@@ -1,6 +1,6 @@
 # STUDIO - Missions Archive (v1.3.0)
 
-> Repo: `sonor-missions-archive` · Pages: https://sonorltd.github.io/sonor-missions-archive/ · app_key `missions-archive`
+> Repo: `sonor-missions-archive` · Pages: https://apps.sonor.co.uk/sonor-missions-archive/ · app_key `missions-archive`
 > Type: side-project, island-ok. Personal, under STUDIO (thread 3 · Missions), created 2026-10-29. **Not Sonor Smart Homes work**: no customer data, no Sonor branding.
 
 The cross-referenced case file behind **Sacred Missions Map**. It holds every case (UFO / cryptid / ghost / folklore reports, Paul Sinclair's Truth Proof reports, personal accounts), every Mysterious Universe episode with its show notes, people / places / themes / waves, a free log, and a generic **link table that connects anything to anything**. The archive is the master; the map is a consumer.
@@ -40,3 +40,5 @@ New kind of thing? Add a row to `arc_types` (+ a table if it needs its own field
 - v1.2.0 — 2026-10-29: full MU research pass (90 new cases, case-only excerpts with evidence level, episode topics), ritual research (59 new, 36 deepened).
 - v1.1.0 — 2026-10-29: decade / status / grouped-tag / links-to filters (from `arc_types.metadata.filters`); Occult & ritual sites category (49 cases).
 - v1.0.0 — 2026-10-29: created. Schema, 787 cases, 927 sources, 1,307 MU episodes, 8 entities, ~430 links; UI built from `arc_types`.
+
+- 2026-11-01 — links → apps.sonor.co.uk (github.io retired)
